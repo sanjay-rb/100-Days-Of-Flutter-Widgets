@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'day1_safearea.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -28,16 +30,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: Center(
-          child: Container(
-            width: 100,
-            height: 100,
-            color: Colors.deepPurple,
-          ),
-        ),
-      ),
-    );
+    return Day1SafeArea();
   }
 }
