@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'day1_safearea.dart';
-import 'day2_expanded.dart';
+import 'day001_safearea.dart';
+import 'day002_expanded.dart';
 
 void main() {
   runApp(MyApp());
