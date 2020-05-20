@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'day1_safearea.dart';
+import 'day2_expanded.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Hundred Days Of Flutter Widget',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MainPage(),
@@ -30,6 +31,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    return Day1SafeArea();
+    return Day2Expanded();
   }
 }
