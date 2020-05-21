@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'day001_safearea.dart';
 import 'day002_expanded.dart';
+import 'day003_wrap.dart';
 
 void main() {
   runApp(MyApp());
@@ -31,6 +32,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    return Day2Expanded();
+    return Day3Wrap();
   }
 }
