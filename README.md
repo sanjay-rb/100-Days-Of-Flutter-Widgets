@@ -7,8 +7,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 
 Day 001 - [SafeArea - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day001_safearea.dart)
 
-[![SafeArea](https://img.youtube.com/vi/lkF0TQJO0bA/0.jpg)](https://www.youtube.com/watch?v=lkF0TQJO0bA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=2)
+[![SafeArea](https://img.youtube.com/vi/lkF0TQJO0bA/0.jpg)](https://www.youtube.com/watch?v=lkF0TQJO0bA)
 
 Day 002 - [Expanded - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day002_expanded.dart)
 
-[![Expanded](https://img.youtube.com/vi/_rnZaagadyo/0.jpg)](https://www.youtube.com/watch?v=_rnZaagadyo&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=4)
+[![Expanded](https://img.youtube.com/vi/_rnZaagadyo/0.jpg)](https://www.youtube.com/watch?v=_rnZaagadyo)
+
+Day 003 - [Wrap - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day003_wrap.dart)
+
+[![Wrap](https://img.youtube.com/vi/_rnZaagadyo/0.jpg)](https://www.youtube.com/watch?v=z5iw2SeFx2M)
