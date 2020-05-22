@@ -21,7 +21,7 @@ class _Day4AnimationContainerState extends State<Day4AnimationContainer> {
       child: Center(
         child: AnimatedContainer( // ? what is AnimatedContainer....
         // ! The [curve] and [duration] arguments must not be null....
-        
+
           duration: Duration(milliseconds: 500),
           /**
            * ! [duration] is the important and requried property for the AnimatedContainer....
@@ -33,7 +33,6 @@ class _Day4AnimationContainerState extends State<Day4AnimationContainer> {
            * ! there are plenty of animations are there in the Curves....
            * ! such as - linear, decelerate, ease, bounce, elastic....
            */
-
           width: isClick ? 200.0 : 200.0,
           height: isClick ? 100.0 : 200.0,
           decoration: BoxDecoration(
