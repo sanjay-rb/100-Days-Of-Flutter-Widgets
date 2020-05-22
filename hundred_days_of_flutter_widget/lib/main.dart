@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'day001_safearea.dart';
 import 'day002_expanded.dart';
 import 'day003_wrap.dart';
+import 'day004_animation_container.dart';
 
 void main() {
   runApp(MyApp());
@@ -32,6 +33,10 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    return Day3Wrap();
+    return Scaffold(
+      body: SafeArea(
+        child: Day4AnimationContainer(),
+      ),
+    );
   }
 }

@@ -6,24 +6,21 @@ class Day3Wrap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var isRow = true; // change [false] to toggle between Row and Column....
-    return Container(
-      child: Scaffold(
-        body: SafeArea(
-          child: Wrap(
-            direction: isRow
-                ? Axis.horizontal
-                : Axis
-                    .vertical, // ? we can use the [direction] for give the children arrange in row or column....
-            spacing:
-                10.0, // ? [spacing] here we give the space between the object or children....
-            runSpacing:
-                10.0, // ? [runSpacing] here we give the space between the one line to another line of children....
+    return Wrap(
+      direction: isRow
+          ? Axis.horizontal
+          : Axis
+              .vertical, // ? we can use the [direction] for give the children arrange in row or column....
+      spacing:
+          10.0, // ? [spacing] here we give the space between the object or children....
+      runSpacing:
+          10.0, // ? [runSpacing] here we give the space between the one line to another line of children....
 
-            alignment: WrapAlignment
-                .start, // ? [alignment] here we give the aling between the object or children....
-            runAlignment: WrapAlignment
-                .start, // ? [runAlignment] here we give the aling between the one line to another line of children....
-            /**
+      alignment: WrapAlignment
+          .start, // ? [alignment] here we give the aling between the object or children....
+      runAlignment: WrapAlignment
+          .start, // ? [runAlignment] here we give the aling between the one line to another line of children....
+      /**
              * ! we have WrapAlignments like:-
              * * start - Place the objects as close to the start of the axis as possible.
              * * end - Place the objects as close to the end of the axis as possible.
@@ -33,83 +30,80 @@ class Day3Wrap extends StatelessWidget {
              * * spaceEvenly - Place the free space evenly between the objects as well as before and after the first and last objects.
              */
 
-            crossAxisAlignment: WrapCrossAlignment
-                .start, // ? [crossAxisAlignment] to aling the opposite axis of main [direction]....
-            /**
+      crossAxisAlignment: WrapCrossAlignment
+          .start, // ? [crossAxisAlignment] to aling the opposite axis of main [direction]....
+      /**
              * ! we have WrapCrossAlignment like:-
              * * start - Place the children as close to the start of the run in the cross axis as possible.
              * * end - Place the children as close to the end of the run in the cross axis as possible.
              * * center - Place the children as close to the middle of the run in the cross axis as possible.
              */
-            textDirection: TextDirection
-                .ltr, // ? [textDirection] determine the order of child in row....
-            /**
+      textDirection: TextDirection
+          .ltr, // ? [textDirection] determine the order of child in row....
+      /**
              * ! we have TextDirection.rtl and TextDirection.ltr....
              * ! we can control the row start here....
              */
 
-            verticalDirection: VerticalDirection
-                .down, // ? [verticalDirection] determine the order of child in column....
-            /**
+      verticalDirection: VerticalDirection
+          .down, // ? [verticalDirection] determine the order of child in column....
+      /**
              * ! we have VerticalDirection.up and VerticalDirection.down....
              * ! we can control the column start here....
              */
 
-            children: <Widget>[
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.red,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.green,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.yellow,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.blue,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.orange,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.pink,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.lime,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.indigo,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.purple,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.black,
-              ),
-            ],
-          ),
+      children: <Widget>[
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.red,
         ),
-      ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.green,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.yellow,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.blue,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.orange,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.pink,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.lime,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.indigo,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.purple,
+        ),
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.black,
+        ),
+      ],
     );
   }
 }
