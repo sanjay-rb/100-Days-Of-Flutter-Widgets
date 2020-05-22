@@ -16,3 +16,7 @@ Day 002 - [Expanded - Click Here to Code....](https://github.com/sanjaysanju618/
 Day 003 - [Wrap - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day003_wrap.dart)
 
 [![Wrap](https://img.youtube.com/vi/z5iw2SeFx2M/0.jpg)](https://www.youtube.com/watch?v=z5iw2SeFx2M)
+
+Day 004 - [AnimatedContainer - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day004_animation_container.dart)
+
+[![AnimatedContainer](https://img.youtube.com/vi/yI-8QHpGIP4/0.jpg)](https://www.youtube.com/watch?v=yI-8QHpGIP4)
