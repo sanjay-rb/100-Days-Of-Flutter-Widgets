@@ -11,6 +11,7 @@ class _Day5OpacityState extends State<Day5Opacity> {
   bool _opacity = false;
   @override
   Widget build(BuildContext context) {
+    
     bool checkAnimation =
         false; // ! change here to find the differents between the Opacity and AnimatedOpacity....
 
