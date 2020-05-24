@@ -24,3 +24,7 @@ Day 004 - [AnimatedContainer - Click Here to Code....](https://github.com/sanjay
 Day 005 - [Opacity - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day005_opacity.dart)
 
 [![Opacity](https://img.youtube.com/vi/9hltevOHQBw/0.jpg)](https://www.youtube.com/watch?v=9hltevOHQBw)
+
+Day 006 - [FutureBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day006_future_builder.dart)
+
+[![FutureBuilder](https://img.youtube.com/vi/ek8ZPdWj4Qo/0.jpg)](https://www.youtube.com/watch?v=ek8ZPdWj4Qo)
