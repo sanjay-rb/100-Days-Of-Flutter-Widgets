@@ -7,6 +7,7 @@ import 'day003_wrap.dart';
 import 'day004_animation_container.dart';
 import 'day005_opacity.dart';
 import 'day006_future_builder.dart';
+import 'day007_fade_transition.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,7 +39,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day6FutureBuilder(),
+        child: Day7FadeTransition(),
       ),
     );
   }

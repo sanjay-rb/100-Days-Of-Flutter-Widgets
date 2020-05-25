@@ -28,3 +28,7 @@ Day 005 - [Opacity - Click Here to Code....](https://github.com/sanjaysanju618/1
 Day 006 - [FutureBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day006_future_builder.dart)
 
 [![FutureBuilder](https://img.youtube.com/vi/ek8ZPdWj4Qo/0.jpg)](https://www.youtube.com/watch?v=ek8ZPdWj4Qo)
+
+Day 007 - [FadeTransition - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day007_fade_transition.dart)
+
+[![FadeTransition](https://img.youtube.com/vi/rLwWVbv3xDQ/0.jpg)](https://www.youtube.com/watch?v=rLwWVbv3xDQ)
