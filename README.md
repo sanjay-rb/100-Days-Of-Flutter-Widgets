@@ -32,3 +32,7 @@ Day 006 - [FutureBuilder - Click Here to Code....](https://github.com/sanjaysanj
 Day 007 - [FadeTransition - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day007_fade_transition.dart)
 
 [![FadeTransition](https://img.youtube.com/vi/rLwWVbv3xDQ/0.jpg)](https://www.youtube.com/watch?v=rLwWVbv3xDQ)
+
+Day 008 - [FloatingActionButton - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day007_fade_transition.dart)
+
+[![FloatingActionButton](https://img.youtube.com/vi/2uaoEDOgk_I/0.jpg)](https://www.youtube.com/watch?v=2uaoEDOgk_I)
