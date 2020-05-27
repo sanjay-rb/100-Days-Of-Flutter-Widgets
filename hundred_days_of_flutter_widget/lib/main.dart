@@ -9,6 +9,7 @@ import 'day005_opacity.dart';
 import 'day006_future_builder.dart';
 import 'day007_fade_transition.dart';
 import 'day008_floating_action_btn.dart';
+import 'day009_page_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -40,7 +41,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day8FloatingActionButton(),
+        child: Day9PageView(),
       ),
     );
   }
