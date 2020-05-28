@@ -40,3 +40,7 @@ Day 008 - [FloatingActionButton - Click Here to Code....](https://github.com/san
 Day 009 - [PageView - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day009_page_view.dart)
 
 [![PageView](https://img.youtube.com/vi/J1gE9xvph-A/0.jpg)](https://www.youtube.com/watch?v=J1gE9xvph-A)
+
+Day 010 - [Table - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day010_table.dart)
+
+[![Table](https://img.youtube.com/vi/_lbE0wsVZSw/0.jpg)](https://www.youtube.com/watch?v=_lbE0wsVZSw)
