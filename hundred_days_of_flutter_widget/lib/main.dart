@@ -11,6 +11,7 @@ import 'day007_fade_transition.dart';
 import 'day008_floating_action_btn.dart';
 import 'day009_page_view.dart';
 import 'day010_table.dart';
+import 'day011_sliver_appbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -42,7 +43,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day10Table(),
+        child: Day11SliverAppBar(),
       ),
     );
   }
