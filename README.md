@@ -52,3 +52,7 @@ Day 011 - [SliverAppBar - Click Here to Code....](https://github.com/sanjaysanju
 Day 012 - [SliverGrid & List - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day012_slivergrid_list.dart)
 
 [![SliverGrid & List](https://img.youtube.com/vi/ORiTTaVY6mM/0.jpg)](https://www.youtube.com/watch?v=ORiTTaVY6mM)
+
+Day 013 - [FadeInImage - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day013_fadein_image.dart)
+
+[![FadeInImage](https://img.youtube.com/vi/pK738Pg9cxc/0.jpg)](https://www.youtube.com/watch?v=pK738Pg9cxc)
