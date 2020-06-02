@@ -60,3 +60,7 @@ Day 013 - [FadeInImage - Click Here to Code....](https://github.com/sanjaysanju6
 Day 014 - [StreamBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day014_stream_builder.dart)
 
 [![StreamBuilder](https://img.youtube.com/vi/MkKEWHfy99Y/0.jpg)](https://www.youtube.com/watch?v=MkKEWHfy99Y)
+
+Day 015 - [InheritedWidget - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day015_inherited_widget.dart)
+
+[![InheritedWidget](https://img.youtube.com/vi/1t-8rBCGBYw/0.jpg)](https://www.youtube.com/watch?v=1t-8rBCGBYw)

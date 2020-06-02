@@ -14,6 +14,7 @@ import 'package:hundreddaysofflutterwidget/day011_sliver_appbar.dart';
 import 'package:hundreddaysofflutterwidget/day012_slivergrid_list.dart';
 import 'package:hundreddaysofflutterwidget/day013_fadein_image.dart';
 import 'package:hundreddaysofflutterwidget/day014_stream_builder.dart';
+import 'package:hundreddaysofflutterwidget/day015_inherited_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -45,7 +46,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day14StreamBuilder(),
+        child: Day15InheritedWidget(),
       ),
     );
   }
