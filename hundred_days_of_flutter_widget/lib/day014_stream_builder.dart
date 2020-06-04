@@ -63,9 +63,8 @@ class NumberCounter {
   var _counter = 0; // ! counter stream....
 
   final _controller = StreamController<int>(); // ? what is StreamController?
-  /**
-   * ! with the help of StreamController we can create | manipuate on streams....
-   */
+  /// ! with the help of StreamController we can create | manipuate on streams....
+
 
   NumberCounter() {
     Timer.periodic(Duration(seconds: 2), (t) {
