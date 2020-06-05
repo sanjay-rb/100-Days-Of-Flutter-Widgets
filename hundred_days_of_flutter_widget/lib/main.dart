@@ -17,6 +17,7 @@ import 'package:hundreddaysofflutterwidget/day014_stream_builder.dart';
 import 'package:hundreddaysofflutterwidget/day015_inherited_widget.dart';
 import 'package:hundreddaysofflutterwidget/day016_cliprrect.dart';
 import 'package:hundreddaysofflutterwidget/day017_hero.dart';
+import 'package:hundreddaysofflutterwidget/day018_custompaint.dart';
 
 void main() {
   runApp(MyApp());
@@ -48,7 +49,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day17Hero(),
+        child: Day18CustomPaint(),
       ),
     );
   }

@@ -72,3 +72,7 @@ Day 016 - [ClipRRect - Click Here to Code....](https://github.com/sanjaysanju618
 Day 017 - [Hero - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day017_hero.dart)
 
 [![Hero](https://img.youtube.com/vi/Be9UH1kXFDw/0.jpg)](https://www.youtube.com/watch?v=Be9UH1kXFDw)
+
+Day 018 - [CustomPaint - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day018_custompaint.dart)
+
+[![CustomPaint](https://img.youtube.com/vi/kp14Y4uHpHs/0.jpg)](https://www.youtube.com/watch?v=kp14Y4uHpHs)
