@@ -19,6 +19,7 @@ import 'package:hundreddaysofflutterwidget/day016_cliprrect.dart';
 import 'package:hundreddaysofflutterwidget/day017_hero.dart';
 import 'package:hundreddaysofflutterwidget/day018_custompaint.dart';
 import 'package:hundreddaysofflutterwidget/day019_tooltip.dart';
+import 'package:hundreddaysofflutterwidget/day020_fittedbox.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,6 +29,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      debugShowMaterialGrid: false,
       title: 'Hundred Days Of Flutter Widget',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
@@ -50,7 +53,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day19Tooltip(),
+        child: Day20FittedBox(),
       ),
     );
   }
