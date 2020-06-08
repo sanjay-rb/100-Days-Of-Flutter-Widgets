@@ -84,3 +84,7 @@ Day 019 - [ToolTip - Click Here to Code....](https://github.com/sanjaysanju618/1
 Day 020 - [FittedBox - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day020_fittedbox.dart)
 
 [![FittedBox](https://img.youtube.com/vi/T4Uehk3_wlY/0.jpg)](https://www.youtube.com/watch?v=T4Uehk3_wlY)
+
+Day 021 - [LayoutBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day020_fittedbox.dart)
+
+[![LayoutBuilder](https://img.youtube.com/vi/IYDVcriKjsw/0.jpg)](https://www.youtube.com/watch?v=IYDVcriKjsw)

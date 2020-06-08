@@ -20,6 +20,7 @@ import 'package:hundreddaysofflutterwidget/day017_hero.dart';
 import 'package:hundreddaysofflutterwidget/day018_custompaint.dart';
 import 'package:hundreddaysofflutterwidget/day019_tooltip.dart';
 import 'package:hundreddaysofflutterwidget/day020_fittedbox.dart';
+import 'package:hundreddaysofflutterwidget/day021_layout_builder.dart';
 
 void main() {
   runApp(MyApp());
@@ -53,7 +54,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day20FittedBox(),
+        child: Day21LayoutBuilder(),
       ),
     );
   }
