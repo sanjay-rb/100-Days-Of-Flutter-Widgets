@@ -88,3 +88,7 @@ Day 020 - [FittedBox - Click Here to Code....](https://github.com/sanjaysanju618
 Day 021 - [LayoutBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day021_layout_builder.dart)
 
 [![LayoutBuilder](https://img.youtube.com/vi/IYDVcriKjsw/0.jpg)](https://www.youtube.com/watch?v=IYDVcriKjsw)
+
+Day 022 - [AbsorbPointer - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day022_absorb_pointer.dart)
+
+[![AbsorbPointer](https://img.youtube.com/vi/65HoWqBboI8/0.jpg)](https://www.youtube.com/watch?v=65HoWqBboI8)
