@@ -96,3 +96,7 @@ Day 022 - [AbsorbPointer - Click Here to Code....](https://github.com/sanjaysanj
 Day 023 - [Transform - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day023_transform.dart)
 
 <a href="https://www.youtube.com/watch?v=9z_YNlRlWfA"><img src = 'https://img.youtube.com/vi/9z_YNlRlWfA/0.jpg' alt="Transform" width=150></a>
+
+Day 024 - [BackdropFilter - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day024_backdropfilter.dart)
+
+<a href="https://www.youtube.com/watch?v=dYRs7Q1vfYI"><img src = 'https://img.youtube.com/vi/dYRs7Q1vfYI/0.jpg' alt="BackdropFilter" width=150></a>

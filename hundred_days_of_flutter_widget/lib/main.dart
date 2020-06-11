@@ -23,6 +23,7 @@ import 'package:hundreddaysofflutterwidget/day020_fittedbox.dart';
 import 'package:hundreddaysofflutterwidget/day021_layout_builder.dart';
 import 'package:hundreddaysofflutterwidget/day022_absorb_pointer.dart';
 import 'package:hundreddaysofflutterwidget/day023_transform.dart';
+import 'package:hundreddaysofflutterwidget/day024_backdropfilter.dart';
 
 void main() {
   runApp(MyApp());
@@ -56,7 +57,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day23Transform(),
+        child: Day24BackdropFilter(),
       ),
     );
   }
