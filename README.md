@@ -100,3 +100,7 @@ Day 023 - [Transform - Click Here to Code....](https://github.com/sanjaysanju618
 Day 024 - [BackdropFilter - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day024_backdropfilter.dart)
 
 <a href="https://www.youtube.com/watch?v=dYRs7Q1vfYI"><img src = 'https://img.youtube.com/vi/dYRs7Q1vfYI/0.jpg' alt="BackdropFilter" width=150></a>
+
+Day 025 - [Align - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day025_align.dart)
+
+<a href="https://www.youtube.com/watch?v=g2E7yl3MwMk"><img src = 'https://img.youtube.com/vi/g2E7yl3MwMk/0.jpg' alt="Align" width=150></a>
