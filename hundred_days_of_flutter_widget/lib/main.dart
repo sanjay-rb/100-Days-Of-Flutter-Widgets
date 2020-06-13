@@ -25,6 +25,7 @@ import 'package:hundreddaysofflutterwidget/day022_absorb_pointer.dart';
 import 'package:hundreddaysofflutterwidget/day023_transform.dart';
 import 'package:hundreddaysofflutterwidget/day024_backdropfilter.dart';
 import 'package:hundreddaysofflutterwidget/day025_align.dart';
+import 'package:hundreddaysofflutterwidget/day026_positioned.dart';
 
 void main() {
   runApp(MyApp());
@@ -58,7 +59,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day25Align(),
+        child: Day26Positioned(),
       ),
     );
   }
