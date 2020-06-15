@@ -27,6 +27,7 @@ import 'package:hundreddaysofflutterwidget/day024_backdropfilter.dart';
 import 'package:hundreddaysofflutterwidget/day025_align.dart';
 import 'package:hundreddaysofflutterwidget/day026_positioned.dart';
 import 'package:hundreddaysofflutterwidget/day027_animated_builder.dart';
+import 'package:hundreddaysofflutterwidget/day028_dismissible.dart';
 
 void main() {
   runApp(MyApp());
@@ -60,7 +61,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Day27AnimatedBuilder(),
+        child: Day28Dismissible(),
       ),
     );
   }
