@@ -30,23 +30,30 @@ class _Day9PageViewState extends State<Day9PageView> {
   Widget build(BuildContext context) {
     final bool _isVertical = false; // ! play here to change direction....
 
-    return PageView(
-      // ? What is PageView....
-      /**
-       * ! we can provide the sequence of pages and give the swipe actions.... 
-       * ! [controller] carries the PageController....
-       * ! [scrollDirection] carries the direction of swipe....
-       * ! [children] holds the list of the Widgets list....
-       */
-      controller: _controller,
-      scrollDirection: _isVertical ? Axis.vertical : Axis.horizontal,
-      children: <Widget>[
-        pageCreator(1),
-        pageCreator(2),
-        pageCreator(3),
-        pageCreator(4),
-        pageCreator(5),
-      ],
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("PageView"),
+      ),
+      body: SafeArea(
+        child: PageView(
+          // ? What is PageView....
+          /**
+           * ! we can provide the sequence of pages and give the swipe actions.... 
+           * ! [controller] carries the PageController....
+           * ! [scrollDirection] carries the direction of swipe....
+           * ! [children] holds the list of the Widgets list....
+           */
+          controller: _controller,
+          scrollDirection: _isVertical ? Axis.vertical : Axis.horizontal,
+          children: <Widget>[
+            pageCreator(1),
+            pageCreator(2),
+            pageCreator(3),
+            pageCreator(4),
+            pageCreator(5),
+          ],
+        ),
+      ),
     );
   }
 

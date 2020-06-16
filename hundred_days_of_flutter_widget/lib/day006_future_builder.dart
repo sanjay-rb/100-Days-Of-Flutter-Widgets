@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http; // ? I have used the http pkg for fetch data ....
+import 'package:http/http.dart'
+    as http; // ? I have used the http pkg for fetch data ....
 import 'dart:convert'; // ? I have used the inbuild convert of dart for json convertion....
 
 class Day6FutureBuilder extends StatefulWidget {
@@ -12,51 +13,57 @@ class Day6FutureBuilder extends StatefulWidget {
 class _Day6FutureBuilderState extends State<Day6FutureBuilder> {
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder( // ? What is FutureBuilder....
-      future: http.get(
-          "http://www.json-generator.com/api/json/get/cesFfSXQpu?indent=2"),
-      /**
-       * ? [future] value store the real fetching data callback....
-       * ! data in server....
-       * * {
-       * * "text": "This Data is from Server...."
-       * * }
-       */
-      initialData: "Waiting for the Record....",
-      /**
-       * ! this data is going to be display during the fetching time.... 
-       */
+    return Scaffold(
+      appBar: AppBar(title: Text("FutureBuilder")),
+      body: SafeArea(
+        child: FutureBuilder(
+          // ? What is FutureBuilder....
+          future: http.get(
+              "http://www.json-generator.com/api/json/get/cesFfSXQpu?indent=2"),
+          /**
+           * ? [future] value store the real fetching data callback....
+           * ! data in server....
+           * * {
+           * * "text": "This Data is from Server...."
+           * * }
+           */
+          initialData: "Waiting for the Record....",
+          /**
+           * ! this data is going to be display during the fetching time.... 
+           */
 
-      builder: (context, snapshot) {
-        /**
-         * ! we can get data from the snapshot like [snapshot.data]....
-         * ! also we can check the state by [snapshot.connectionState]....
-         */
-        if (snapshot.connectionState == ConnectionState.done) {
-          // ? here we check the connection....
-          return Center(
-            child: Text(json.decode((snapshot.data.body))["text"]),
+          builder: (context, snapshot) {
             /**
-             * ! here we decoed the data and get the value of [text] from the server.... 
+             * ! we can get data from the snapshot like [snapshot.data]....
+             * ! also we can check the state by [snapshot.connectionState]....
              */
-          );
-        } else {
-          return Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                CircularProgressIndicator(), // ? [CircularProgressIndicator] is used to show the progress....
-                Text(
-                  snapshot.data.toString(),
-                ), // ?  here we print the inital data from the [initialData] property....
-                Text(
-                  snapshot.connectionState.toString(),
-                ) // ? here we watch the current state of the connection....
-              ],
-            ),
-          );
-        }
-      },
+            if (snapshot.connectionState == ConnectionState.done) {
+              // ? here we check the connection....
+              return Center(
+                child: Text(json.decode((snapshot.data.body))["text"]),
+                /**
+                 * ! here we decoed the data and get the value of [text] from the server.... 
+                 */
+              );
+            } else {
+              return Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    CircularProgressIndicator(), // ? [CircularProgressIndicator] is used to show the progress....
+                    Text(
+                      snapshot.data.toString(),
+                    ), // ?  here we print the inital data from the [initialData] property....
+                    Text(
+                      snapshot.connectionState.toString(),
+                    ) // ? here we watch the current state of the connection....
+                  ],
+                ),
+              );
+            }
+          },
+        ),
+      ),
     );
   }
 }

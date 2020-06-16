@@ -11,9 +11,8 @@ class _Day5OpacityState extends State<Day5Opacity> {
   bool _opacity = false;
   @override
   Widget build(BuildContext context) {
-    
     bool checkAnimation =
-        false; // ! change here to find the differents between the Opacity and AnimatedOpacity....
+        true; // ! change here to find the differents between the Opacity and AnimatedOpacity....
 
     var withAnimation = AnimatedOpacity(
       // ? what is AnimatedOpacity....
@@ -57,13 +56,20 @@ class _Day5OpacityState extends State<Day5Opacity> {
       ),
     );
 
-    return GestureDetector(
-      onTap: () {
-        setState(() {
-          _opacity = !_opacity;
-        });
-      },
-      child: checkAnimation ? withAnimation : withoutAnimation,
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Opacity"),
+      ),
+      body: SafeArea(
+        child: GestureDetector(
+          onTap: () {
+            setState(() {
+              _opacity = !_opacity;
+            });
+          },
+          child: checkAnimation ? withAnimation : withoutAnimation,
+        ),
+      ),
     );
   }
 }

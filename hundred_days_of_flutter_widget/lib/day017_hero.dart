@@ -10,34 +10,37 @@ class Day17Hero extends StatefulWidget {
 class _Day17HeroState extends State<Day17Hero> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.topRight,
-      child: Hero(
-        // ? What is Hero...
-        /**
+    return Scaffold(
+      body: Container(
+        alignment: Alignment.topRight,
+        child: Hero(
+          // ? What is Hero...
+          /**
        * ! Hero is the very cool and simple animation effect for the Developer....
        * ! [tag] , [child] are the requried properties for the Hero....
        */
-        tag: "laptop",
-        /**
+          tag: "laptop",
+          /**
          * ! [tag] - is identifier tag for the Hero Element....
          */
-        child:
-            /**
+          child:
+              /**
          * ! [child] - is for hold the elemet=nt in the Ui....
          */
-            GestureDetector(
-          onTap: () => Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => NextPage(),
-              )),
-          child: Icon(
-            Icons.laptop,
-            size: 100.0,
+              GestureDetector(
+            onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => NextPage(),
+                )),
+            child: Icon(
+              Icons.laptop,
+              size: 100.0,
+            ),
           ),
         ),
       ),
+      appBar: AppBar(title: Text("Hero")),
     );
   }
 }

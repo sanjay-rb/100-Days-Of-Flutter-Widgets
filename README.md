@@ -116,3 +116,7 @@ Day 027 - [AnimatedBuilder - Click Here to Code....](https://github.com/sanjaysa
 Day 028 - [Dismissible - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day028_dismissible.dart)
 
 <a href="https://www.youtube.com/watch?v=iEMgjrfuc58"><img src = 'https://img.youtube.com/vi/iEMgjrfuc58/0.jpg' alt="Dismissible" width=150></a>
+
+Day 029 - [SizedBox - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day029_sized_box.dart)
+
+<a href="https://www.youtube.com/watch?v=EHPu_DzRfqA"><img src = 'https://img.youtube.com/vi/EHPu_DzRfqA/0.jpg' alt="SizedBox" width=150></a>

@@ -5,19 +5,21 @@ class Day20FittedBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container( // ? this Container is going to be have Image....
-        color: Colors.amber,
-        width: double.infinity,
-        height: 100,
-        child: FittedBox(
-          // ? What is FittedBox....
-          /**
+    return Scaffold(
+        body: Center(
+          child: Container(
+            // ? this Container is going to be have Image....
+            color: Colors.amber,
+            width: double.infinity,
+            height: 100,
+            child: FittedBox(
+              // ? What is FittedBox....
+              /**
            * ! we can easy fit one widget with another by [FittedBox]....
            * ! yes, this example fitted the Image.asset() into the Container of height 100....
            */
-          fit: BoxFit.fill,
-          /**
+              fit: BoxFit.fill,
+              /**
            * ! [fit] is the important property to say how the fit should be....
            * ! There are few predefine fits like :-
            * * none - Align the source within the target box (by default, centering) without change in image.
@@ -28,13 +30,15 @@ class Day20FittedBox extends StatelessWidget {
            * * fitWidth - fitted to the parent width.
            * * scaleDown - Align the source within the target box (by default, centering) with change in image.
            */
-          alignment: Alignment.center,
-          /**
+              alignment: Alignment.center,
+              /**
            * ! [alignment] yes we can align the child. its defaut value is center....
            */
-          child: Image.asset("images/coffee.jpg"), // ? this Image is going to be fitted inside....
+              child: Image.asset(
+                  "images/coffee.jpg"), // ? this Image is going to be fitted inside....
+            ),
+          ),
         ),
-      ),
-    );
+        appBar: AppBar(title: Text("FittedBox")));
   }
 }

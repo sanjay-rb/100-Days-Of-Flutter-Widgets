@@ -12,27 +12,30 @@ class Day14StreamBuilder extends StatefulWidget {
 class _Day14StreamBuilderState extends State<Day14StreamBuilder> {
   @override
   Widget build(BuildContext context) {
-    return StreamBuilder(
-      // ? what is StreamBuilder....
-      stream: NumberCounter().stream,
-      /**
+    return Scaffold(
+      body: StreamBuilder(
+        // ? what is StreamBuilder....
+        stream: NumberCounter().stream,
+        /**
        * ! [stream] is the important property and it's carry the dynamic value.... 
        */
-      initialData:
-          null, // ! [initialData] have the first or substitute value....
-      builder: (BuildContext context, AsyncSnapshot snapshot) {
-        /**
+        initialData:
+            null, // ! [initialData] have the first or substitute value....
+        builder: (BuildContext context, AsyncSnapshot snapshot) {
+          /**
          * ! [builder] is the very sensitive property....
          * ! why because it's is get the dynamic value from the stream via snapshot....
          * ! here we manilupate and display the value....
          */
-        return Container(
-          child: Center(
-            child: _uiText(
-                snapshot), // ? [_uiText] is custom funtion defined below....
-          ),
-        );
-      },
+          return Container(
+            child: Center(
+              child: _uiText(
+                  snapshot), // ? [_uiText] is custom funtion defined below....
+            ),
+          );
+        },
+      ),
+      appBar: AppBar(title: Text("StreamBuilder")),
     );
   }
 }
@@ -64,7 +67,6 @@ class NumberCounter {
 
   final _controller = StreamController<int>(); // ? what is StreamController?
   /// ! with the help of StreamController we can create | manipuate on streams....
-
 
   NumberCounter() {
     Timer.periodic(Duration(seconds: 2), (t) {

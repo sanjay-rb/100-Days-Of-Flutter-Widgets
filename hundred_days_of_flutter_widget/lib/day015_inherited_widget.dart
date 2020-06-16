@@ -13,8 +13,7 @@ class InheritedColorWidget extends StatefulWidget {
   InheritedColorWidgetState createState() => InheritedColorWidgetState();
 
   static InheritedColorWidgetState of(BuildContext context) =>
-      (context.dependOnInheritedWidgetOfExactType<InheritedColorData>())
-          .data;
+      (context.dependOnInheritedWidgetOfExactType<InheritedColorData>()).data;
   /**
    * ! [of] is used to get the Instance of the [InheritedColorData] for the help of [InheritedColorWidget]....
    */
@@ -46,13 +45,13 @@ class InheritedColorWidgetState extends State<InheritedColorWidget> {
 class InheritedColorData extends InheritedWidget {
   // ? Here comes the [InheritedWidget] oops [InheritedData]
   // ? What is InheritedWidget....
-/// ! InheritedWidget is the very important class in the Flutter...
+  /// ! InheritedWidget is the very important class in the Flutter...
 
-/// ! This act as the root top Widget of all the child widget...
+  /// ! This act as the root top Widget of all the child widget...
 
-/// ! and provide the [data] for all the below child widget....
+  /// ! and provide the [data] for all the below child widget....
 
-/// ! Actually InheritedWidget not the normal UI Widget it have simple save and share the data....
+  /// ! Actually InheritedWidget not the normal UI Widget it have simple save and share the data....
 
   InheritedColorData({Key key, @required Widget child, @required this.data})
       : super(key: key, child: child);
@@ -76,12 +75,15 @@ class Day15InheritedWidget extends StatefulWidget {
 class _Day15InheritedWidgetState extends State<Day15InheritedWidget> {
   @override
   Widget build(BuildContext context) {
-    return new InheritedColorWidget(
-      // ! here we added the InheritedWidget....
-      child: Container(
-        child:
-            NewChildWidget(), // ! we are going to create the nested ChildWidget....
+    return Scaffold(
+      body: InheritedColorWidget(
+        // ! here we added the InheritedWidget....
+        child: Container(
+          child:
+              NewChildWidget(), // ! we are going to create the nested ChildWidget....
+        ),
       ),
+      appBar: AppBar(title: Text("InheritedWidget")),
     );
   }
 }
