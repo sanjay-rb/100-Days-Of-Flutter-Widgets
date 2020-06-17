@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day28Dismissible extends StatefulWidget {
   Day28Dismissible({Key key}) : super(key: key);
@@ -29,6 +30,22 @@ class _Day28DismissibleState extends State<Day28Dismissible> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Dismissible"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day028_dismissible.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
       ),
       body: SafeArea(
         child: ListView.builder(

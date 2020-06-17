@@ -29,6 +29,7 @@ import 'package:hundreddaysofflutterwidget/day026_positioned.dart';
 import 'package:hundreddaysofflutterwidget/day027_animated_builder.dart';
 import 'package:hundreddaysofflutterwidget/day028_dismissible.dart';
 import 'package:hundreddaysofflutterwidget/day029_sized_box.dart';
+import 'package:hundreddaysofflutterwidget/day030_value_listenable_builder.dart';
 
 void main() {
   runApp(MyApp());
@@ -90,7 +91,8 @@ class _MainPageState extends State<MainPage> {
     "Positioned": Day26Positioned(),
     "AnimatedBuilder": Day27AnimatedBuilder(),
     "Dismissible": Day28Dismissible(),
-    "SizedBox" : Day29SizedBox(),
+    "SizedBox": Day29SizedBox(),
+    "ValueListenableBuilder": Day30ValueListenableBuilder(),
   };
 
   List _listTitle = [
@@ -122,7 +124,8 @@ class _MainPageState extends State<MainPage> {
     "Positioned",
     "AnimatedBuilder",
     "Dismissible",
-    "SizedBox"
+    "SizedBox",
+    "ValueListenableBuilder"
   ];
 
   List fliter = List<String>();
@@ -154,40 +157,43 @@ class _MainPageState extends State<MainPage> {
                       )
                     : Text("100 Days of Widgtes");
 
-                    if ((_appTitle is Text)) {
-                      setState(() {
-                        fliter = _listTitle;
-                      });
-                    }
+                if ((_appTitle is Text)) {
+                  setState(() {
+                    fliter = _listTitle;
+                  });
+                }
               });
             },
           )
-        ], 
+        ],
       ),
       body: SafeArea(
-        child: fliter.length == 0? ListView.builder(
-          itemCount: _listTitle.length,
-          itemBuilder: (BuildContext context, int index) {
-            return ListTile(
-              title: Text(_listTitle[index]),
-              trailing: Text("Day ${index + 1}"),
-              onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => nav[_listTitle[index]],
-              )),
-            );
-          },
-        ):ListView.builder(
-          itemCount: fliter.length,
-          itemBuilder: (BuildContext context, int index) {
-            return ListTile(
-              title: Text(fliter[index]),
-              trailing: Text("Day ${_listTitle.indexOf(fliter[index]) + 1}"),
-              onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => nav[fliter[index]],
-              )),
-            );
-          },
-        ),
+        child: fliter.length == 0
+            ? ListView.builder(
+                itemCount: _listTitle.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return ListTile(
+                    title: Text(_listTitle[index]),
+                    trailing: Text("Day ${index + 1}"),
+                    onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => nav[_listTitle[index]],
+                    )),
+                  );
+                },
+              )
+            : ListView.builder(
+                itemCount: fliter.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return ListTile(
+                    title: Text(fliter[index]),
+                    trailing:
+                        Text("Day ${_listTitle.indexOf(fliter[index]) + 1}"),
+                    onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => nav[fliter[index]],
+                    )),
+                  );
+                },
+              ),
       ),
     );
   }

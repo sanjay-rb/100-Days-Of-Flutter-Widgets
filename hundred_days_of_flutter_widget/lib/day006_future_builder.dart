@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart'
     as http; // ? I have used the http pkg for fetch data ....
-import 'dart:convert'; // ? I have used the inbuild convert of dart for json convertion....
+import 'dart:convert';
+
+import 'package:url_launcher/url_launcher.dart'; // ? I have used the inbuild convert of dart for json convertion....
 
 class Day6FutureBuilder extends StatefulWidget {
   Day6FutureBuilder({Key key}) : super(key: key);
@@ -14,7 +16,25 @@ class _Day6FutureBuilderState extends State<Day6FutureBuilder> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("FutureBuilder")),
+      appBar: AppBar(
+        title: Text("FutureBuilder"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day006_future_builder.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
+      ),
       body: SafeArea(
         child: FutureBuilder(
           // ? What is FutureBuilder....

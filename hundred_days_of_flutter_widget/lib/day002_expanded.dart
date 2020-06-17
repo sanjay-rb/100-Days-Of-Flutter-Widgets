@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day2Expanded extends StatelessWidget {
   const Day2Expanded({Key key}) : super(key: key);
@@ -10,6 +11,21 @@ class Day2Expanded extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Expanded"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/lib/day002_expanded.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
       ),
       body: SafeArea(
         child: Container(

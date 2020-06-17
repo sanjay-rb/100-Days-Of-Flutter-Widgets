@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day9PageView extends StatefulWidget {
   Day9PageView({Key key}) : super(key: key);
@@ -33,6 +34,22 @@ class _Day9PageViewState extends State<Day9PageView> {
     return Scaffold(
       appBar: AppBar(
         title: Text("PageView"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day009_page_view.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
       ),
       body: SafeArea(
         child: PageView(

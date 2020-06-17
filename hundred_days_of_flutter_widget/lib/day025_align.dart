@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day25Align extends StatelessWidget {
   const Day25Align({Key key}) : super(key: key);
@@ -27,7 +28,25 @@ class Day25Align extends StatelessWidget {
           ),
         ),
       ),
-      appBar: AppBar(title: Text("Align")),
+      appBar: AppBar(
+        title: Text("Align"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day025_align.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
+      ),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class InheritedColorWidget extends StatefulWidget {
   /// ! create the simple StatefulWidget which is going to be the InheritedWidget....
@@ -83,7 +84,25 @@ class _Day15InheritedWidgetState extends State<Day15InheritedWidget> {
               NewChildWidget(), // ! we are going to create the nested ChildWidget....
         ),
       ),
-      appBar: AppBar(title: Text("InheritedWidget")),
+      appBar: AppBar(
+        title: Text("InheritedWidget"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day015_inherited_widget.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
+      ),
     );
   }
 }

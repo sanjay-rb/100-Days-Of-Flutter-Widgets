@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day13FadeInImage extends StatefulWidget {
   Day13FadeInImage({Key key}) : super(key: key);
@@ -13,6 +14,22 @@ class _Day13FadeInImageState extends State<Day13FadeInImage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("FadeInImage"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day013_fadein_image.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
       ),
       body: SafeArea(
         child: Container(

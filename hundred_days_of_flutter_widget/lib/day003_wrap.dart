@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day3Wrap extends StatelessWidget {
   const Day3Wrap({Key key}) : super(key: key);
@@ -9,6 +10,22 @@ class Day3Wrap extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Warp"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day003_wrap.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
       ),
       body: Container(
         child: Wrap(

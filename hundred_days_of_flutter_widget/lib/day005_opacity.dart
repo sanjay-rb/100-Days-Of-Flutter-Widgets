@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Day5Opacity extends StatefulWidget {
   Day5Opacity({Key key}) : super(key: key);
@@ -59,6 +60,22 @@ class _Day5OpacityState extends State<Day5Opacity> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Opacity"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.help),
+            onPressed: () async {
+              const url =
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day005_opacity.dart';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+          )
+        ],
       ),
       body: SafeArea(
         child: GestureDetector(
