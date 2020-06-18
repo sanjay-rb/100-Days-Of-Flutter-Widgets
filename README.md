@@ -124,3 +124,7 @@ Day 029 - [SizedBox - Click Here to Code....](https://github.com/sanjaysanju618/
 Day 030 - [ValueListenableBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day030_value_listenable_builder.dart)
 
 <a href="https://www.youtube.com/watch?v=s-ZG-jS5QHQ"><img src = 'https://img.youtube.com/vi/s-ZG-jS5QHQ/0.jpg' alt="ValueListenableBuilder" width=150></a>
+
+Day 031 - [Draggable - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day031_draggable.dart)
+
+<a href="https://www.youtube.com/watch?v=QzA4c4QHZCY"><img src = 'https://img.youtube.com/vi/QzA4c4QHZCY/0.jpg' alt="Draggable" width=150></a>

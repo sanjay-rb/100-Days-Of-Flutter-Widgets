@@ -30,6 +30,7 @@ import 'package:hundreddaysofflutterwidget/day027_animated_builder.dart';
 import 'package:hundreddaysofflutterwidget/day028_dismissible.dart';
 import 'package:hundreddaysofflutterwidget/day029_sized_box.dart';
 import 'package:hundreddaysofflutterwidget/day030_value_listenable_builder.dart';
+import 'package:hundreddaysofflutterwidget/day031_draggable.dart';
 
 void main() {
   runApp(MyApp());
@@ -93,6 +94,7 @@ class _MainPageState extends State<MainPage> {
     "Dismissible": Day28Dismissible(),
     "SizedBox": Day29SizedBox(),
     "ValueListenableBuilder": Day30ValueListenableBuilder(),
+    "Draggable": Day31Draggable()
   };
 
   List _listTitle = [
@@ -125,7 +127,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedBuilder",
     "Dismissible",
     "SizedBox",
-    "ValueListenableBuilder"
+    "ValueListenableBuilder",
+    "Draggable"
   ];
 
   List fliter = List<String>();
