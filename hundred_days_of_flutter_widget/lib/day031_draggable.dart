@@ -133,10 +133,14 @@ class _Day31DraggableState extends State<Day31Draggable> {
                                 : acceptData == "leave"
                                     ? Center(
                                         child: Container(
-                                          child: Text("Drag in to green"),
+                                          child: Text("Out of drag Area"),
                                         ),
                                       )
-                                    : Container(),
+                                    : Center(
+                                        child: Container(
+                                          child: Text("Drag in to green"),
+                                        ),
+                                      ),
                       );
                     },
                   ),
