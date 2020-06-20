@@ -132,3 +132,7 @@ Day 031 - [Draggable - Click Here to Code....](https://github.com/sanjaysanju618
 Day 032 - [AnimatedList - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day032_animated_list.dart)
 
 <a href="https://www.youtube.com/watch?v=ZtfItHwFlZ8"><img src = 'https://img.youtube.com/vi/ZtfItHwFlZ8/0.jpg' alt="AnimatedList" width=150></a>
+
+Day 033 - [Flexible - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day033_flexible.dart)
+
+<a href="https://www.youtube.com/watch?v=CI7x0mAZiY0"><img src = 'https://img.youtube.com/vi/CI7x0mAZiY0/0.jpg' alt="Flexible" width=150></a>
