@@ -136,3 +136,7 @@ Day 032 - [AnimatedList - Click Here to Code....](https://github.com/sanjaysanju
 Day 033 - [Flexible - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day033_flexible.dart)
 
 <a href="https://www.youtube.com/watch?v=CI7x0mAZiY0"><img src = 'https://img.youtube.com/vi/CI7x0mAZiY0/0.jpg' alt="Flexible" width=150></a>
+
+Day 034 - [MediaQuery - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day034_media_query.dart)
+
+<a href="https://www.youtube.com/watch?v=A3WrA4zAaPw"><img src = 'https://img.youtube.com/vi/A3WrA4zAaPw/0.jpg' alt="MediaQuery" width=150></a>

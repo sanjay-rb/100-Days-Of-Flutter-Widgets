@@ -33,6 +33,7 @@ import 'package:hundreddaysofflutterwidget/day030_value_listenable_builder.dart'
 import 'package:hundreddaysofflutterwidget/day031_draggable.dart';
 import 'package:hundreddaysofflutterwidget/day032_animated_list.dart';
 import 'package:hundreddaysofflutterwidget/day033_flexible.dart';
+import 'package:hundreddaysofflutterwidget/day034_media_query.dart';
 
 void main() {
   runApp(MyApp());
@@ -99,6 +100,7 @@ class _MainPageState extends State<MainPage> {
     "Draggable": Day31Draggable(),
     "AnimatedList": Day32AnimatedList(),
     "Flexible": Day33Flexible(),
+    "MediaQuery": Day34MediaQuery(),
   };
 
   List _listTitle = [
@@ -135,6 +137,7 @@ class _MainPageState extends State<MainPage> {
     "Draggable",
     "AnimatedList",
     "Flexible",
+    "MediaQuery"
   ];
 
   List fliter = List<String>();
@@ -151,9 +154,13 @@ class _MainPageState extends State<MainPage> {
               setState(() {
                 _appTitle = _appTitle is Text
                     ? TextField(
+                        cursorColor: Colors.white,
                         controller: _textController,
                         autofocus: true,
-                        decoration: InputDecoration(hintText: "Enter Here...."),
+                        style: TextStyle(color: Colors.white),
+                        decoration: InputDecoration(
+                          hintText: "Enter Here....",
+                        ),
                         onChanged: (value) {
                           setState(() {
                             fliter = _listTitle
