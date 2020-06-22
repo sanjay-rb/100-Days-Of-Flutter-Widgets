@@ -140,3 +140,7 @@ Day 033 - [Flexible - Click Here to Code....](https://github.com/sanjaysanju618/
 Day 034 - [MediaQuery - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day034_media_query.dart)
 
 <a href="https://www.youtube.com/watch?v=A3WrA4zAaPw"><img src = 'https://img.youtube.com/vi/A3WrA4zAaPw/0.jpg' alt="MediaQuery" width=150></a>
+
+Day 035 - [Spacer - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day035_spacer.dart)
+
+<a href="https://www.youtube.com/watch?v=7FJgd7QN1zI"><img src = 'https://img.youtube.com/vi/7FJgd7QN1zI/0.jpg' alt="Spacer" width=150></a>

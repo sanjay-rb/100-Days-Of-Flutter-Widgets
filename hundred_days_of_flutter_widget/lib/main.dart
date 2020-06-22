@@ -34,6 +34,7 @@ import 'package:hundreddaysofflutterwidget/day031_draggable.dart';
 import 'package:hundreddaysofflutterwidget/day032_animated_list.dart';
 import 'package:hundreddaysofflutterwidget/day033_flexible.dart';
 import 'package:hundreddaysofflutterwidget/day034_media_query.dart';
+import 'package:hundreddaysofflutterwidget/day035_spacer.dart';
 
 void main() {
   runApp(MyApp());
@@ -101,6 +102,7 @@ class _MainPageState extends State<MainPage> {
     "AnimatedList": Day32AnimatedList(),
     "Flexible": Day33Flexible(),
     "MediaQuery": Day34MediaQuery(),
+    "Spacer": Day35Spacer()
   };
 
   List _listTitle = [
@@ -137,7 +139,8 @@ class _MainPageState extends State<MainPage> {
     "Draggable",
     "AnimatedList",
     "Flexible",
-    "MediaQuery"
+    "MediaQuery",
+    "Spacer"
   ];
 
   List fliter = List<String>();
