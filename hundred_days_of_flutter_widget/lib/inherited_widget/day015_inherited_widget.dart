@@ -93,7 +93,7 @@ class _Day15InheritedWidgetState extends State<Day15InheritedWidget> {
               const url =
                   'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
                       'blob/master/hundred_days_of_flutter_widget/' +
-                      'lib/day015_inherited_widget.dart';
+                      'lib/inherited_widget/day015_inherited_widget.dart';
               if (await canLaunch(url)) {
                 await launch(url);
               } else {

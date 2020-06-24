@@ -61,7 +61,7 @@ Day 014 - [StreamBuilder - Click Here to Code....](https://github.com/sanjaysanj
 
 <a href="https://www.youtube.com/watch?v=MkKEWHfy99Y"><img src = 'https://img.youtube.com/vi/MkKEWHfy99Y/0.jpg' alt="StreamBuilder" width=150></a>
 
-Day 015 - [InheritedWidget - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day015_inherited_widget.dart)
+Day 015 - [InheritedWidget - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/inherited_widget/)
 
 <a href="https://www.youtube.com/watch?v=1t-8rBCGBYw"><img src = 'https://img.youtube.com/vi/1t-8rBCGBYw/0.jpg' alt="InheritedWidget" width=150></a>
 
@@ -148,3 +148,7 @@ Day 035 - [Spacer - Click Here to Code....](https://github.com/sanjaysanju618/10
 Day 036 - [AnimatedIcon - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day036_animated_icon.dart)
 
 <a href="https://www.youtube.com/watch?v=pJcbh8pbvJs"><img src = 'https://img.youtube.com/vi/pJcbh8pbvJs/0.jpg' alt="AnimatedIcon" width=150></a>
+
+Day 037 - [InheritedModel - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day037_inherited_model.dart)
+
+<a href="https://www.youtube.com/watch?v=ml5uefGgkaA"><img src = 'https://img.youtube.com/vi/ml5uefGgkaA/0.jpg' alt="InheritedModel" width=150></a>

@@ -14,7 +14,7 @@ import 'package:hundreddaysofflutterwidget/day011_sliver_appbar.dart';
 import 'package:hundreddaysofflutterwidget/day012_slivergrid_list.dart';
 import 'package:hundreddaysofflutterwidget/day013_fadein_image.dart';
 import 'package:hundreddaysofflutterwidget/day014_stream_builder.dart';
-import 'package:hundreddaysofflutterwidget/day015_inherited_widget.dart';
+import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:hundreddaysofflutterwidget/day016_cliprrect.dart';
 import 'package:hundreddaysofflutterwidget/day017_hero.dart';
 import 'package:hundreddaysofflutterwidget/day018_custompaint.dart';
@@ -36,6 +36,7 @@ import 'package:hundreddaysofflutterwidget/day033_flexible.dart';
 import 'package:hundreddaysofflutterwidget/day034_media_query.dart';
 import 'package:hundreddaysofflutterwidget/day035_spacer.dart';
 import 'package:hundreddaysofflutterwidget/day036_animated_icon.dart';
+import 'package:hundreddaysofflutterwidget/day037_inherited_model.dart';
 
 void main() {
   runApp(MyApp());
@@ -83,7 +84,7 @@ class _MainPageState extends State<MainPage> {
     "SliverGridList": Day12SliverGridList(),
     "FadeInImage": Day13FadeInImage(),
     "StreamBuilder": Day14StreamBuilder(),
-    "InheritedWidget": Day15InheritedWidget(),
+    "InheritedWidget": Day37InheritedWidget(),
     "ClipRRect": Day16ClipRRect(),
     "Hero": Day17Hero(),
     "CustomPaint": Day18CustomPaint(),
@@ -105,6 +106,7 @@ class _MainPageState extends State<MainPage> {
     "MediaQuery": Day34MediaQuery(),
     "Spacer": Day35Spacer(),
     "AnimatedIcon": Day36AnimatedIcon(),
+    "InheritedModel": Day37InheritedModel()
   };
 
   List _listTitle = [
@@ -143,7 +145,8 @@ class _MainPageState extends State<MainPage> {
     "Flexible",
     "MediaQuery",
     "Spacer",
-    "AnimatedIcon"
+    "AnimatedIcon",
+    "InheritedModel"
   ];
 
   List fliter = List<String>();
