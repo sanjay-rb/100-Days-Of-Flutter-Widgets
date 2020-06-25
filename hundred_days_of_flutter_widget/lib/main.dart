@@ -37,6 +37,7 @@ import 'package:hundreddaysofflutterwidget/day034_media_query.dart';
 import 'package:hundreddaysofflutterwidget/day035_spacer.dart';
 import 'package:hundreddaysofflutterwidget/day036_animated_icon.dart';
 import 'package:hundreddaysofflutterwidget/day037_inherited_model.dart';
+import 'package:hundreddaysofflutterwidget/day038_aspect_ratio.dart';
 
 void main() {
   runApp(MyApp());
@@ -51,6 +52,7 @@ class MyApp extends StatelessWidget {
       title: 'Hundred Days Of Flutter Widget',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
+        accentColor: Colors.pinkAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MainPage(),
@@ -106,7 +108,8 @@ class _MainPageState extends State<MainPage> {
     "MediaQuery": Day34MediaQuery(),
     "Spacer": Day35Spacer(),
     "AnimatedIcon": Day36AnimatedIcon(),
-    "InheritedModel": Day37InheritedModel()
+    "InheritedModel": Day37InheritedModel(),
+    "AspectRatio": Day38AspectRatio()
   };
 
   List _listTitle = [
@@ -146,7 +149,8 @@ class _MainPageState extends State<MainPage> {
     "MediaQuery",
     "Spacer",
     "AnimatedIcon",
-    "InheritedModel"
+    "InheritedModel",
+    "AspectRatio"
   ];
 
   List fliter = List<String>();

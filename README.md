@@ -152,3 +152,7 @@ Day 036 - [AnimatedIcon - Click Here to Code....](https://github.com/sanjaysanju
 Day 037 - [InheritedModel - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day037_inherited_model.dart)
 
 <a href="https://www.youtube.com/watch?v=ml5uefGgkaA"><img src = 'https://img.youtube.com/vi/ml5uefGgkaA/0.jpg' alt="InheritedModel" width=150></a>
+
+Day 038 - [AspectRatio - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day038_aspect_ratio.dart)
+
+<a href="https://www.youtube.com/watch?v=XcnP3_mO_Ms"><img src = 'https://img.youtube.com/vi/XcnP3_mO_Ms/0.jpg' alt="AspectRatio" width=150></a>
