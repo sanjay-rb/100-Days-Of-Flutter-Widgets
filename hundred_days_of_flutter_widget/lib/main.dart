@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:hundreddaysofflutterwidget/day001_safearea.dart';
 import 'package:hundreddaysofflutterwidget/day002_expanded.dart';
 import 'package:hundreddaysofflutterwidget/day003_wrap.dart';
@@ -14,7 +13,6 @@ import 'package:hundreddaysofflutterwidget/day011_sliver_appbar.dart';
 import 'package:hundreddaysofflutterwidget/day012_slivergrid_list.dart';
 import 'package:hundreddaysofflutterwidget/day013_fadein_image.dart';
 import 'package:hundreddaysofflutterwidget/day014_stream_builder.dart';
-import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:hundreddaysofflutterwidget/day016_cliprrect.dart';
 import 'package:hundreddaysofflutterwidget/day017_hero.dart';
 import 'package:hundreddaysofflutterwidget/day018_custompaint.dart';
@@ -38,6 +36,10 @@ import 'package:hundreddaysofflutterwidget/day035_spacer.dart';
 import 'package:hundreddaysofflutterwidget/day036_animated_icon.dart';
 import 'package:hundreddaysofflutterwidget/day037_inherited_model.dart';
 import 'package:hundreddaysofflutterwidget/day038_aspect_ratio.dart';
+import 'package:hundreddaysofflutterwidget/day039_limited_box.dart';
+import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
+
+
 
 void main() {
   runApp(MyApp());
@@ -109,7 +111,8 @@ class _MainPageState extends State<MainPage> {
     "Spacer": Day35Spacer(),
     "AnimatedIcon": Day36AnimatedIcon(),
     "InheritedModel": Day37InheritedModel(),
-    "AspectRatio": Day38AspectRatio()
+    "AspectRatio": Day38AspectRatio(),
+    "LimitedBox": Day39LimitedBox()
   };
 
   List _listTitle = [
@@ -150,7 +153,8 @@ class _MainPageState extends State<MainPage> {
     "Spacer",
     "AnimatedIcon",
     "InheritedModel",
-    "AspectRatio"
+    "AspectRatio",
+    "LimitedBox"
   ];
 
   List fliter = List<String>();
