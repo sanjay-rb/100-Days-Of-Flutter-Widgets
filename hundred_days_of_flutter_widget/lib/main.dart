@@ -37,9 +37,8 @@ import 'package:hundreddaysofflutterwidget/day036_animated_icon.dart';
 import 'package:hundreddaysofflutterwidget/day037_inherited_model.dart';
 import 'package:hundreddaysofflutterwidget/day038_aspect_ratio.dart';
 import 'package:hundreddaysofflutterwidget/day039_limited_box.dart';
+import 'package:hundreddaysofflutterwidget/day040_placeholder.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
-
-
 
 void main() {
   runApp(MyApp());
@@ -112,7 +111,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedIcon": Day36AnimatedIcon(),
     "InheritedModel": Day37InheritedModel(),
     "AspectRatio": Day38AspectRatio(),
-    "LimitedBox": Day39LimitedBox()
+    "LimitedBox": Day39LimitedBox(),
+    "Placeholder": Day40Placeholder()
   };
 
   List _listTitle = [
@@ -154,7 +154,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedIcon",
     "InheritedModel",
     "AspectRatio",
-    "LimitedBox"
+    "LimitedBox",
+    "Placeholder"
   ];
 
   List fliter = List<String>();

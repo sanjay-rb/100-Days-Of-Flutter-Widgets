@@ -160,3 +160,7 @@ Day 038 - [AspectRatio - Click Here to Code....](https://github.com/sanjaysanju6
 Day 039 - [LimitedBox - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day039_limited_box.dart)
 
 <a href="https://www.youtube.com/watch?v=uVki2CIzBTs"><img src = 'https://img.youtube.com/vi/uVki2CIzBTs/0.jpg' alt="LimitedBox" width=150></a>
+
+Day 040 - [Placeholder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day040_placeholder.dart)
+
+<a href="https://www.youtube.com/watch?v=LPe56fezmoo"><img src = 'https://img.youtube.com/vi/LPe56fezmoo/0.jpg' alt="Placeholder" width=150></a>
