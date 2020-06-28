@@ -164,3 +164,7 @@ Day 039 - [LimitedBox - Click Here to Code....](https://github.com/sanjaysanju61
 Day 040 - [Placeholder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day040_placeholder.dart)
 
 <a href="https://www.youtube.com/watch?v=LPe56fezmoo"><img src = 'https://img.youtube.com/vi/LPe56fezmoo/0.jpg' alt="Placeholder" width=150></a>
+
+Day 041 - [RichText - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day041_richtext.dart)
+
+<a href="https://www.youtube.com/watch?v=rykDVh-QFfw"><img src = 'https://img.youtube.com/vi/rykDVh-QFfw/0.jpg' alt="RichText" width=150></a>

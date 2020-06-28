@@ -38,6 +38,7 @@ import 'package:hundreddaysofflutterwidget/day037_inherited_model.dart';
 import 'package:hundreddaysofflutterwidget/day038_aspect_ratio.dart';
 import 'package:hundreddaysofflutterwidget/day039_limited_box.dart';
 import 'package:hundreddaysofflutterwidget/day040_placeholder.dart';
+import 'package:hundreddaysofflutterwidget/day041_richtext.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -112,7 +113,8 @@ class _MainPageState extends State<MainPage> {
     "InheritedModel": Day37InheritedModel(),
     "AspectRatio": Day38AspectRatio(),
     "LimitedBox": Day39LimitedBox(),
-    "Placeholder": Day40Placeholder()
+    "Placeholder": Day40Placeholder(),
+    "RichText": Day41RichText()
   };
 
   List _listTitle = [
@@ -155,7 +157,8 @@ class _MainPageState extends State<MainPage> {
     "InheritedModel",
     "AspectRatio",
     "LimitedBox",
-    "Placeholder"
+    "Placeholder",
+    "RichText"
   ];
 
   List fliter = List<String>();
