@@ -39,6 +39,7 @@ import 'package:hundreddaysofflutterwidget/day038_aspect_ratio.dart';
 import 'package:hundreddaysofflutterwidget/day039_limited_box.dart';
 import 'package:hundreddaysofflutterwidget/day040_placeholder.dart';
 import 'package:hundreddaysofflutterwidget/day041_richtext.dart';
+import 'package:hundreddaysofflutterwidget/day042_reorderable_list_view.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -114,7 +115,8 @@ class _MainPageState extends State<MainPage> {
     "AspectRatio": Day38AspectRatio(),
     "LimitedBox": Day39LimitedBox(),
     "Placeholder": Day40Placeholder(),
-    "RichText": Day41RichText()
+    "RichText": Day41RichText(),
+    "ReorderableListView": Day42ReorderableListView()
   };
 
   List _listTitle = [
@@ -158,7 +160,8 @@ class _MainPageState extends State<MainPage> {
     "AspectRatio",
     "LimitedBox",
     "Placeholder",
-    "RichText"
+    "RichText",
+    "ReorderableListView"
   ];
 
   List fliter = List<String>();
