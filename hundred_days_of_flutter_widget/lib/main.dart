@@ -40,6 +40,7 @@ import 'package:hundreddaysofflutterwidget/day039_limited_box.dart';
 import 'package:hundreddaysofflutterwidget/day040_placeholder.dart';
 import 'package:hundreddaysofflutterwidget/day041_richtext.dart';
 import 'package:hundreddaysofflutterwidget/day042_reorderable_list_view.dart';
+import 'package:hundreddaysofflutterwidget/day_043_animated_switcher.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -116,7 +117,8 @@ class _MainPageState extends State<MainPage> {
     "LimitedBox": Day39LimitedBox(),
     "Placeholder": Day40Placeholder(),
     "RichText": Day41RichText(),
-    "ReorderableListView": Day42ReorderableListView()
+    "ReorderableListView": Day42ReorderableListView(),
+    "AnimatedSwitcher": Day43AnimatedSwitcher()
   };
 
   List _listTitle = [
@@ -161,7 +163,8 @@ class _MainPageState extends State<MainPage> {
     "LimitedBox",
     "Placeholder",
     "RichText",
-    "ReorderableListView"
+    "ReorderableListView",
+    "AnimatedSwitcher"
   ];
 
   List fliter = List<String>();
