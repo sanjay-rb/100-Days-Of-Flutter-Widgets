@@ -88,7 +88,7 @@ class _Day43AnimatedSwitcherState extends State<Day43AnimatedSwitcher> {
               const url =
                   'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
                       'blob/master/hundred_days_of_flutter_widget/' +
-                      'lib/day_043_animated_switcher.dart';
+                      'lib/day043_animated_switcher.dart';
               if (await canLaunch(url)) {
                 await launch(url);
               } else {
