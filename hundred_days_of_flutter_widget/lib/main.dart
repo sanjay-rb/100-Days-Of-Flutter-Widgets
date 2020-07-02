@@ -42,6 +42,7 @@ import 'package:hundreddaysofflutterwidget/day041_richtext.dart';
 import 'package:hundreddaysofflutterwidget/day042_reorderable_list_view.dart';
 import 'package:hundreddaysofflutterwidget/day043_animated_switcher.dart';
 import 'package:hundreddaysofflutterwidget/day044_animated_position.dart';
+import 'package:hundreddaysofflutterwidget/day045_animated_padding.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -120,7 +121,8 @@ class _MainPageState extends State<MainPage> {
     "RichText": Day41RichText(),
     "ReorderableListView": Day42ReorderableListView(),
     "AnimatedSwitcher": Day43AnimatedSwitcher(),
-    "AnimatedPositioned": Day44AnimatedPositioned()
+    "AnimatedPositioned": Day44AnimatedPositioned(),
+    "AnimatedPadding": Day45AnimatedPadding()
   };
 
   List _listTitle = [
@@ -167,7 +169,8 @@ class _MainPageState extends State<MainPage> {
     "RichText",
     "ReorderableListView",
     "AnimatedSwitcher",
-    "AnimatedPositioned"
+    "AnimatedPositioned",
+    "AnimatedPadding"
   ];
 
   List fliter = List<String>();
