@@ -181,6 +181,10 @@ Day 044 - [AnimatedPositioned - Click Here to Code....](https://github.com/sanja
 
 <a href="https://www.youtube.com/watch?v=hC3s2YdtWt8"><img src = 'https://img.youtube.com/vi/hC3s2YdtWt8/0.jpg' alt="AnimatedPositioned" width=150></a>
 
-Day 045 - [AnimatedPositioned - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day045_animated_padding.dart)
+Day 045 - [AnimatedPadding - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day045_animated_padding.dart)
 
 <a href="https://www.youtube.com/watch?v=PY2m0fhGNz4"><img src = 'https://img.youtube.com/vi/PY2m0fhGNz4/0.jpg' alt="AnimatedPadding" width=150></a>
+
+Day 046 - [IndexedStack - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day046_indexed_stack.dart)
+
+<a href="https://www.youtube.com/watch?v=_O0PPD1Xfbk"><img src = 'https://img.youtube.com/vi/_O0PPD1Xfbk/0.jpg' alt="IndexedStack" width=150></a>
