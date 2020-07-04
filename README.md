@@ -188,3 +188,7 @@ Day 045 - [AnimatedPadding - Click Here to Code....](https://github.com/sanjaysa
 Day 046 - [IndexedStack - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day046_indexed_stack.dart)
 
 <a href="https://www.youtube.com/watch?v=_O0PPD1Xfbk"><img src = 'https://img.youtube.com/vi/_O0PPD1Xfbk/0.jpg' alt="IndexedStack" width=150></a>
+
+Day 047 - [Semantics - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day047_semantics.dart)
+
+<a href="https://www.youtube.com/watch?v=NvtMt_DtFrQ"><img src = 'https://img.youtube.com/vi/NvtMt_DtFrQ/0.jpg' alt="Semantics" width=150></a>

@@ -44,6 +44,7 @@ import 'package:hundreddaysofflutterwidget/day043_animated_switcher.dart';
 import 'package:hundreddaysofflutterwidget/day044_animated_position.dart';
 import 'package:hundreddaysofflutterwidget/day045_animated_padding.dart';
 import 'package:hundreddaysofflutterwidget/day046_indexed_stack.dart';
+import 'package:hundreddaysofflutterwidget/day047_semantics.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -124,7 +125,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedSwitcher": Day43AnimatedSwitcher(),
     "AnimatedPositioned": Day44AnimatedPositioned(),
     "AnimatedPadding": Day45AnimatedPadding(),
-    "IndexedStack": Day46IndexedStack()
+    "IndexedStack": Day46IndexedStack(),
+    "Semantics": Day47Semantics()
   };
 
   List _listTitle = [
@@ -173,7 +175,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedSwitcher",
     "AnimatedPositioned",
     "AnimatedPadding",
-    "IndexedStack"
+    "IndexedStack",
+    "Semantics"
   ];
 
   List fliter = List<String>();
