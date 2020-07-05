@@ -45,6 +45,7 @@ import 'package:hundreddaysofflutterwidget/day044_animated_position.dart';
 import 'package:hundreddaysofflutterwidget/day045_animated_padding.dart';
 import 'package:hundreddaysofflutterwidget/day046_indexed_stack.dart';
 import 'package:hundreddaysofflutterwidget/day047_semantics.dart';
+import 'package:hundreddaysofflutterwidget/day048_constrained_box.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -126,7 +127,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedPositioned": Day44AnimatedPositioned(),
     "AnimatedPadding": Day45AnimatedPadding(),
     "IndexedStack": Day46IndexedStack(),
-    "Semantics": Day47Semantics()
+    "Semantics": Day47Semantics(),
+    "ConstrainedBox": Day48ConstrainedBox()
   };
 
   List _listTitle = [
@@ -176,7 +178,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedPositioned",
     "AnimatedPadding",
     "IndexedStack",
-    "Semantics"
+    "Semantics",
+    "ConstrainedBox"
   ];
 
   List fliter = List<String>();
