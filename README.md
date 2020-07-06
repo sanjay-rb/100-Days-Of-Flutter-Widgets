@@ -196,3 +196,7 @@ Day 047 - [Semantics - Click Here to Code....](https://github.com/sanjaysanju618
 Day 048 - [ConstrainedBox - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day048_constrained_box.dart)
 
 <a href="https://www.youtube.com/watch?v=o2KveVr7adg"><img src = 'https://img.youtube.com/vi/o2KveVr7adg/0.jpg' alt="ConstrainedBox" width=150></a>
+
+Day 049 - [Stack - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day049_stack.dart)
+
+<a href="https://www.youtube.com/watch?v=liEGSeD3Zt8"><img src = 'https://img.youtube.com/vi/liEGSeD3Zt8/0.jpg' alt="Stack" width=150></a>
