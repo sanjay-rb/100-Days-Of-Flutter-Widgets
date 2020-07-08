@@ -204,3 +204,7 @@ Day 049 - [Stack - Click Here to Code....](https://github.com/sanjaysanju618/100
 Day 050 - [AnimatedOpacity  - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day050_animated_opacity.dart)
 
 <a href="https://www.youtube.com/watch?v=QZAvjqOqiLY"><img src = 'https://img.youtube.com/vi/QZAvjqOqiLY/0.jpg' alt="AnimatedOpacity " width=150></a>
+
+Day 050 - [FractionallySizedBox  - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day051_fractionally_sized_box.dart)
+
+<a href="https://www.youtube.com/watch?v=PEsY654EGZ0"><img src = 'https://img.youtube.com/vi/PEsY654EGZ0/0.jpg' alt="FractionallySizedBox " width=150></a>
