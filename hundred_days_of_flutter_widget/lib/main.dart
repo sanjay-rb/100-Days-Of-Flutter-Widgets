@@ -49,6 +49,7 @@ import 'package:hundreddaysofflutterwidget/day048_constrained_box.dart';
 import 'package:hundreddaysofflutterwidget/day049_stack.dart';
 import 'package:hundreddaysofflutterwidget/day050_animated_opacity.dart';
 import 'package:hundreddaysofflutterwidget/day051_fractionally_sized_box.dart';
+import 'package:hundreddaysofflutterwidget/day052_list_view.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -134,7 +135,8 @@ class _MainPageState extends State<MainPage> {
     "ConstrainedBox": Day48ConstrainedBox(),
     "Stack": Day49Stack(),
     "AnimatedOpacity": Day50AnimatedOpacity(),
-    "FractionallySizedBox": Day51FractionallySizedBox()
+    "FractionallySizedBox": Day51FractionallySizedBox(),
+    "ListView": Day52ListView()
   };
 
   List _listTitle = [
@@ -188,7 +190,8 @@ class _MainPageState extends State<MainPage> {
     "ConstrainedBox",
     "Stack",
     "AnimatedOpacity",
-    "FractionallySizedBox"
+    "FractionallySizedBox",
+    "ListView"
   ];
 
   List fliter = List<String>();
