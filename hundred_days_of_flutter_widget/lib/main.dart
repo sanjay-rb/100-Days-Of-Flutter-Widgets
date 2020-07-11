@@ -51,6 +51,7 @@ import 'package:hundreddaysofflutterwidget/day050_animated_opacity.dart';
 import 'package:hundreddaysofflutterwidget/day051_fractionally_sized_box.dart';
 import 'package:hundreddaysofflutterwidget/day052_list_view.dart';
 import 'package:hundreddaysofflutterwidget/day053_list_tile.dart';
+import 'package:hundreddaysofflutterwidget/day054_container.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -138,7 +139,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedOpacity": Day50AnimatedOpacity(),
     "FractionallySizedBox": Day51FractionallySizedBox(),
     "ListView": Day52ListView(),
-    "ListTile": Day53ListTile()
+    "ListTile": Day53ListTile(),
+    "Container": Day54Container()
   };
 
   List _listTitle = [
@@ -194,7 +196,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedOpacity",
     "FractionallySizedBox",
     "ListView",
-    "ListTile"
+    "ListTile",
+    "Container"
   ];
 
   List fliter = List<String>();
