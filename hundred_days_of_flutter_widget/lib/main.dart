@@ -52,6 +52,7 @@ import 'package:hundreddaysofflutterwidget/day051_fractionally_sized_box.dart';
 import 'package:hundreddaysofflutterwidget/day052_list_view.dart';
 import 'package:hundreddaysofflutterwidget/day053_list_tile.dart';
 import 'package:hundreddaysofflutterwidget/day054_container.dart';
+import 'package:hundreddaysofflutterwidget/day055_selectable_text.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -140,7 +141,8 @@ class _MainPageState extends State<MainPage> {
     "FractionallySizedBox": Day51FractionallySizedBox(),
     "ListView": Day52ListView(),
     "ListTile": Day53ListTile(),
-    "Container": Day54Container()
+    "Container": Day54Container(),
+    "SelectableText": Day55SelectableText()
   };
 
   List _listTitle = [
@@ -197,7 +199,8 @@ class _MainPageState extends State<MainPage> {
     "FractionallySizedBox",
     "ListView",
     "ListTile",
-    "Container"
+    "Container",
+    "SelectableText"
   ];
 
   List fliter = List<String>();
