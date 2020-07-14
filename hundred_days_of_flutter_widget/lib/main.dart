@@ -54,6 +54,7 @@ import 'package:hundreddaysofflutterwidget/day053_list_tile.dart';
 import 'package:hundreddaysofflutterwidget/day054_container.dart';
 import 'package:hundreddaysofflutterwidget/day055_selectable_text.dart';
 import 'package:hundreddaysofflutterwidget/day056_datatable.dart';
+import 'package:hundreddaysofflutterwidget/day057_slider.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() {
@@ -144,7 +145,8 @@ class _MainPageState extends State<MainPage> {
     "ListTile": Day53ListTile(),
     "Container": Day54Container(),
     "SelectableText": Day55SelectableText(),
-    "DataTable": Day56DataTable()
+    "DataTable": Day56DataTable(),
+    "Slider": Day57Slider(),
   };
 
   List _listTitle = [
@@ -203,7 +205,8 @@ class _MainPageState extends State<MainPage> {
     "ListTile",
     "Container",
     "SelectableText",
-    "DataTable"
+    "DataTable",
+    "Slider"
   ];
 
   List fliter = List<String>();

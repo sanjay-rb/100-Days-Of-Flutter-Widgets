@@ -228,3 +228,7 @@ Day 055 - [SelectableText  - Click Here to Code....](https://github.com/sanjaysa
 Day 056 - [DataTable  - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day056_datatable.dart)
 
 <a href="https://www.youtube.com/watch?v=ktTajqbhIcY"><img src = 'https://img.youtube.com/vi/ktTajqbhIcY/0.jpg' alt="DataTable" width=150></a>
+
+Day 057 - [Slider  - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day057_slider.dart)
+
+<a href="https://www.youtube.com/watch?v=ufb4gIPDmEs"><img src = 'https://img.youtube.com/vi/ufb4gIPDmEs/0.jpg' alt="Slider" width=150></a>
