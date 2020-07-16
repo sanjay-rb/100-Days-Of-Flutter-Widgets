@@ -236,3 +236,7 @@ Day 057 - [Slider - Click Here to Code....](https://github.com/sanjaysanju618/10
 Day 058 - [AlertDialog - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day058_alert_dialog.dart)
 
 <a href="https://www.youtube.com/watch?v=75CsnyRXf5I"><img src = 'https://img.youtube.com/vi/75CsnyRXf5I/0.jpg' alt="AlertDialog" width=150></a>
+
+Day 059 - [AnimatedCrossFade - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day059_animated_cross_fade.dart)
+
+<a href="https://www.youtube.com/watch?v=PGK2UUAyE54"><img src = 'https://img.youtube.com/vi/PGK2UUAyE54/0.jpg' alt="AnimatedCrossFade" width=150></a>

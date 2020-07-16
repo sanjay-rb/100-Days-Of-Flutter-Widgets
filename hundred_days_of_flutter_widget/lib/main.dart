@@ -56,6 +56,7 @@ import 'package:hundreddaysofflutterwidget/day055_selectable_text.dart';
 import 'package:hundreddaysofflutterwidget/day056_datatable.dart';
 import 'package:hundreddaysofflutterwidget/day057_slider.dart';
 import 'package:hundreddaysofflutterwidget/day058_alert_dialog.dart';
+import 'package:hundreddaysofflutterwidget/day059_animated_cross_fade.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() => runApp(MyApp());
@@ -146,7 +147,8 @@ class _MainPageState extends State<MainPage> {
     "SelectableText": Day55SelectableText(),
     "DataTable": Day56DataTable(),
     "Slider": Day57Slider(),
-    "AlertDialog": Day58AlertDialog()
+    "AlertDialog": Day58AlertDialog(),
+    "AnimatedCrossFade": Day59AnimatedCrossFade()
   };
 
   List _listTitle = [
@@ -207,7 +209,8 @@ class _MainPageState extends State<MainPage> {
     "SelectableText",
     "DataTable",
     "Slider",
-    "AlertDialog"
+    "AlertDialog",
+    "AnimatedCrossFade"
   ];
 
   List fliter = List<String>();
