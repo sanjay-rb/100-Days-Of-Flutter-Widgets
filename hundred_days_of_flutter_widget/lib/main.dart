@@ -57,6 +57,7 @@ import 'package:hundreddaysofflutterwidget/day056_datatable.dart';
 import 'package:hundreddaysofflutterwidget/day057_slider.dart';
 import 'package:hundreddaysofflutterwidget/day058_alert_dialog.dart';
 import 'package:hundreddaysofflutterwidget/day059_animated_cross_fade.dart';
+import 'package:hundreddaysofflutterwidget/day060_draggable_scrollable_sheet.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() => runApp(MyApp());
@@ -148,7 +149,8 @@ class _MainPageState extends State<MainPage> {
     "DataTable": Day56DataTable(),
     "Slider": Day57Slider(),
     "AlertDialog": Day58AlertDialog(),
-    "AnimatedCrossFade": Day59AnimatedCrossFade()
+    "AnimatedCrossFade": Day59AnimatedCrossFade(),
+    "DraggableScrollableSheet": Day60DraggableScrollableSheet()
   };
 
   List _listTitle = [
@@ -210,7 +212,8 @@ class _MainPageState extends State<MainPage> {
     "DataTable",
     "Slider",
     "AlertDialog",
-    "AnimatedCrossFade"
+    "AnimatedCrossFade",
+    "DraggableScrollableSheet"
   ];
 
   List fliter = List<String>();
