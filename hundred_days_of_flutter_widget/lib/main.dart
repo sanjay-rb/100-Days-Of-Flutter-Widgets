@@ -59,6 +59,7 @@ import 'package:hundreddaysofflutterwidget/day058_alert_dialog.dart';
 import 'package:hundreddaysofflutterwidget/day059_animated_cross_fade.dart';
 import 'package:hundreddaysofflutterwidget/day060_draggable_scrollable_sheet.dart';
 import 'package:hundreddaysofflutterwidget/day061_color_filtered.dart';
+import 'package:hundreddaysofflutterwidget/day062_toggle_buttons.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() => runApp(MyApp());
@@ -152,7 +153,8 @@ class _MainPageState extends State<MainPage> {
     "AlertDialog": Day58AlertDialog(),
     "AnimatedCrossFade": Day59AnimatedCrossFade(),
     "DraggableScrollableSheet": Day60DraggableScrollableSheet(),
-    "ColorFiltered": Day61ColorFiltered()
+    "ColorFiltered": Day61ColorFiltered(),
+    "ToggleButtons": Day62ToggleButtons()
   };
 
   List _listTitle = [
@@ -216,7 +218,8 @@ class _MainPageState extends State<MainPage> {
     "AlertDialog",
     "AnimatedCrossFade",
     "DraggableScrollableSheet",
-    "ColorFiltered"
+    "ColorFiltered",
+    "ToggleButtons"
   ];
 
   List fliter = List<String>();
