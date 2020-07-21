@@ -256,3 +256,7 @@ Day 062 - [ToggleButtons - Click Here to Code....](https://github.com/sanjaysanj
 Day 063 - [CupertinoActionSheet - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day063_cupertino_action_sheet.dart)
 
 <a href="https://www.youtube.com/watch?v=U-ao8p4A82k"><img src = 'https://img.youtube.com/vi/U-ao8p4A82k/0.jpg' alt="ToggleButtons" width=150></a>
+
+Day 064 - [TweenAnimationBuilder - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day064_tween_animation_builder.dart)
+
+<a href="https://www.youtube.com/watch?v=l9uHB8VXZOg"><img src = 'https://img.youtube.com/vi/l9uHB8VXZOg/0.jpg' alt="ToggleButtons" width=150></a>
