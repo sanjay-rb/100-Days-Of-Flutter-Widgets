@@ -62,6 +62,7 @@ import 'package:hundreddaysofflutterwidget/day061_color_filtered.dart';
 import 'package:hundreddaysofflutterwidget/day062_toggle_buttons.dart';
 import 'package:hundreddaysofflutterwidget/day063_cupertino_action_sheet.dart';
 import 'package:hundreddaysofflutterwidget/day064_tween_animation_builder.dart';
+import 'package:hundreddaysofflutterwidget/day065_image.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 
 void main() => runApp(MyApp());
@@ -158,7 +159,8 @@ class _MainPageState extends State<MainPage> {
     "ColorFiltered": Day61ColorFiltered(),
     "ToggleButtons": Day62ToggleButtons(),
     "CupertinoActionSheet": Day63CupertinoActionSheet(),
-    "TweenAnimationBuilder": Day64TweenAnimationBuilder()
+    "TweenAnimationBuilder": Day64TweenAnimationBuilder(),
+    "Image": Day65Image()
   };
 
   List _listTitle = [
@@ -225,7 +227,8 @@ class _MainPageState extends State<MainPage> {
     "ColorFiltered",
     "ToggleButtons",
     "CupertinoActionSheet",
-    "TweenAnimationBuilder"
+    "TweenAnimationBuilder",
+    'Image'
   ];
 
   List fliter = List<String>();
