@@ -63,7 +63,7 @@ import 'package:hundreddaysofflutterwidget/day062_toggle_buttons.dart';
 import 'package:hundreddaysofflutterwidget/day063_cupertino_action_sheet.dart';
 import 'package:hundreddaysofflutterwidget/day064_tween_animation_builder.dart';
 import 'package:hundreddaysofflutterwidget/day065_image.dart';
-import 'package:hundreddaysofflutterwidget/day066_default_tab_controller_&_tab_bar.dart';
+import 'package:hundreddaysofflutterwidget/day066_default_tab_controller_and_tab_bar.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 

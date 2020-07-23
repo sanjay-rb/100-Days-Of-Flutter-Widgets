@@ -49,7 +49,7 @@ class _Day66DefaultTabControllerAndTabBarState
                 const url =
                     'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
                         'blob/master/hundred_days_of_flutter_widget/' +
-                        'lib/day066_default_tab_controller_.dart';
+                        'lib/day066_default_tab_controller_and_tab_bar.dart';
                 if (await canLaunch(url)) {
                   await launch(url);
                 } else {

@@ -267,6 +267,6 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 
 <a href="https://www.youtube.com/watch?v=7oIAs-0G4mw"><img src = 'https://img.youtube.com/vi/7oIAs-0G4mw/0.jpg' alt="Image" width=150></a>
 
-## Day 066 - [DefaultTabController & TabBar - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day066_default_tab_controller_.dart)
+## Day 066 - [DefaultTabController & TabBar - Click Here to Code....](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day066_default_tab_controller_and_tab_bar.dart)
 
 <a href="https://www.youtube.com/watch?v=POtoEH-5l40"><img src = 'https://img.youtube.com/vi/POtoEH-5l40/0.jpg' alt="DefaultTabController & TabBar" width=150></a>
