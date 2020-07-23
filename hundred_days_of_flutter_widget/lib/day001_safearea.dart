@@ -16,7 +16,9 @@ class Day1SafeArea extends StatelessWidget {
             icon: Icon(Icons.help),
             onPressed: () async {
               const url =
-                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day001_safearea.dart';
+                  'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
+                      'blob/master/hundred_days_of_flutter_widget/' +
+                      'lib/day001_safearea.dart';
               if (await canLaunch(url)) {
                 await launch(url);
               } else {
