@@ -63,7 +63,9 @@ import 'package:hundreddaysofflutterwidget/day062_toggle_buttons.dart';
 import 'package:hundreddaysofflutterwidget/day063_cupertino_action_sheet.dart';
 import 'package:hundreddaysofflutterwidget/day064_tween_animation_builder.dart';
 import 'package:hundreddaysofflutterwidget/day065_image.dart';
+import 'package:hundreddaysofflutterwidget/day066_default_tab_controller_&_tab_bar.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
@@ -160,7 +162,8 @@ class _MainPageState extends State<MainPage> {
     "ToggleButtons": Day62ToggleButtons(),
     "CupertinoActionSheet": Day63CupertinoActionSheet(),
     "TweenAnimationBuilder": Day64TweenAnimationBuilder(),
-    "Image": Day65Image()
+    "Image": Day65Image(),
+    "DefaultTabController & TabBar": Day66DefaultTabControllerAndTabBar()
   };
 
   List _listTitle = [
@@ -228,7 +231,8 @@ class _MainPageState extends State<MainPage> {
     "ToggleButtons",
     "CupertinoActionSheet",
     "TweenAnimationBuilder",
-    'Image'
+    'Image',
+    "DefaultTabController & TabBar"
   ];
 
   List fliter = List<String>();
@@ -270,6 +274,18 @@ class _MainPageState extends State<MainPage> {
                   });
                 }
               });
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.info),
+            onPressed: () async {
+              const url =
+                  'https://sanjaysanju618.github.io/100-Days-Of-Flutter-Widgets/';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
             },
           )
         ],
