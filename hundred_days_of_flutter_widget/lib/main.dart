@@ -64,6 +64,7 @@ import 'package:hundreddaysofflutterwidget/day063_cupertino_action_sheet.dart';
 import 'package:hundreddaysofflutterwidget/day064_tween_animation_builder.dart';
 import 'package:hundreddaysofflutterwidget/day065_image.dart';
 import 'package:hundreddaysofflutterwidget/day066_default_tab_controller_and_tab_bar.dart';
+import 'package:hundreddaysofflutterwidget/day067_drawer.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -163,7 +164,8 @@ class _MainPageState extends State<MainPage> {
     "CupertinoActionSheet": Day63CupertinoActionSheet(),
     "TweenAnimationBuilder": Day64TweenAnimationBuilder(),
     "Image": Day65Image(),
-    "DefaultTabController & TabBar": Day66DefaultTabControllerAndTabBar()
+    "DefaultTabController & TabBar": Day66DefaultTabControllerAndTabBar(),
+    "Drawer": Day67Drawer()
   };
 
   List _listTitle = [
@@ -232,7 +234,8 @@ class _MainPageState extends State<MainPage> {
     "CupertinoActionSheet",
     "TweenAnimationBuilder",
     'Image',
-    "DefaultTabController & TabBar"
+    "DefaultTabController & TabBar",
+    "Drawer"
   ];
 
   List fliter = List<String>();
