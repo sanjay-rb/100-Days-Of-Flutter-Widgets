@@ -66,6 +66,7 @@ import 'package:hundreddaysofflutterwidget/day065_image.dart';
 import 'package:hundreddaysofflutterwidget/day066_default_tab_controller_and_tab_bar.dart';
 import 'package:hundreddaysofflutterwidget/day067_drawer.dart';
 import 'package:hundreddaysofflutterwidget/day068_snack_bar.dart';
+import 'package:hundreddaysofflutterwidget/day069_list_wheel_scroll_view.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -167,7 +168,8 @@ class _MainPageState extends State<MainPage> {
     "Image": Day65Image(),
     "DefaultTabController & TabBar": Day66DefaultTabControllerAndTabBar(),
     "Drawer": Day67Drawer(),
-    "SnackBar": Day68SnackBar()
+    "SnackBar": Day68SnackBar(),
+    "ListWheelScrollView": Day69ListWheelScrollView()
   };
 
   List _listTitle = [
@@ -238,7 +240,8 @@ class _MainPageState extends State<MainPage> {
     'Image',
     "DefaultTabController & TabBar",
     "Drawer",
-    "SnackBar"
+    "SnackBar",
+    "ListWheelScrollView"
   ];
 
   List fliter = List<String>();
