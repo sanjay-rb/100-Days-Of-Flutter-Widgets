@@ -383,13 +383,13 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 
 ## Day 063 - [CupertinoActionSheet - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day063_cupertino_action_sheet.dart)
 
-<a href="https://www.youtube.com/watch?v=U-ao8p4A82k"><img src = 'https://img.youtube.com/vi/U-ao8p4A82k/0.jpg' alt="ToggleButtons" width=150></a>
+<a href="https://www.youtube.com/watch?v=U-ao8p4A82k"><img src = 'https://img.youtube.com/vi/U-ao8p4A82k/0.jpg' alt="CupertinoActionSheet" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 
 ## Day 064 - [TweenAnimationBuilder - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day064_tween_animation_builder.dart)
 
-<a href="https://www.youtube.com/watch?v=l9uHB8VXZOg"><img src = 'https://img.youtube.com/vi/l9uHB8VXZOg/0.jpg' alt="ToggleButtons" width=150></a>
+<a href="https://www.youtube.com/watch?v=l9uHB8VXZOg"><img src = 'https://img.youtube.com/vi/l9uHB8VXZOg/0.jpg' alt="TweenAnimationBuilder" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 
@@ -420,6 +420,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 ## Day 069 - [ListWheelScrollView - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day069_list_wheel_scroll_view.dart)
 
 <a href="https://www.youtube.com/watch?v=dUhmWAz4C7Y"><img src = 'https://img.youtube.com/vi/dUhmWAz4C7Y/0.jpg' alt="ListWheelScrollView" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 070 - [ShaderMask - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day070_shader_mask.dart)
+
+<a href="https://www.youtube.com/watch?v=7sUL66pTQ7Q"><img src = 'https://img.youtube.com/vi/7sUL66pTQ7Q/0.jpg' alt="ShaderMask" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
