@@ -68,6 +68,7 @@ import 'package:hundreddaysofflutterwidget/day067_drawer.dart';
 import 'package:hundreddaysofflutterwidget/day068_snack_bar.dart';
 import 'package:hundreddaysofflutterwidget/day069_list_wheel_scroll_view.dart';
 import 'package:hundreddaysofflutterwidget/day070_shader_mask.dart';
+import 'package:hundreddaysofflutterwidget/day071_notification_listener.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -171,7 +172,8 @@ class _MainPageState extends State<MainPage> {
     "Drawer": Day67Drawer(),
     "SnackBar": Day68SnackBar(),
     "ListWheelScrollView": Day69ListWheelScrollView(),
-    "ShaderMask": Day70ShaderMask()
+    "ShaderMask": Day70ShaderMask(),
+    "NotificationListener": Day71NotificationListener()
   };
 
   List _listTitle = [
@@ -244,7 +246,8 @@ class _MainPageState extends State<MainPage> {
     "Drawer",
     "SnackBar",
     "ListWheelScrollView",
-    "ShaderMask"
+    "ShaderMask",
+    "NotificationListener"
   ];
 
   List fliter = List<String>();
