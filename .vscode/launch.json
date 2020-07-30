@@ -1,15 +1,34 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Dart",
-            "program": "bin/main.dart",
+            "name": "debug",
+            "program": "hundred_days_of_flutter_widget\\lib\\main.dart",
             "request": "launch",
             "type": "dart",
             "flutterMode": "debug",
+            "args": [
+                "-v"
+            ]
+        },
+        {
+            "name": "profile",
+            "program": "hundred_days_of_flutter_widget\\lib\\main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "internalConsoleOptions": "openOnSessionStart",
+            "args": [
+                "-v"
+            ]
+        },
+        {
+            "name": "release",
+            "program": "hundred_days_of_flutter_widget\\lib\\main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "internalConsoleOptions": "openOnSessionStart",
             "args": [
                 "-v"
             ]
