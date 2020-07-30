@@ -440,6 +440,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=xXNOkIuSYuA"><img src = 'https://img.youtube.com/vi/xXNOkIuSYuA/0.jpg' alt="Builder" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 073 - [ClipPath - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day073_clip_path.dart)
+
+<a href="https://www.youtube.com/watch?v=oAUebVIb-7s"><img src = 'https://img.youtube.com/vi/oAUebVIb-7s/0.jpg' alt="Builder" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNDk5OTE3NDEwXX0=
 -->

@@ -70,6 +70,7 @@ import 'package:hundreddaysofflutterwidget/day069_list_wheel_scroll_view.dart';
 import 'package:hundreddaysofflutterwidget/day070_shader_mask.dart';
 import 'package:hundreddaysofflutterwidget/day071_notification_listener.dart';
 import 'package:hundreddaysofflutterwidget/day072_builder.dart';
+import 'package:hundreddaysofflutterwidget/day073_clip_path.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -175,7 +176,8 @@ class _MainPageState extends State<MainPage> {
     "ListWheelScrollView": Day69ListWheelScrollView(),
     "ShaderMask": Day70ShaderMask(),
     "NotificationListener": Day71NotificationListener(),
-    "Builder": Day72Builder()
+    "Builder": Day72Builder(),
+    "ClipPath": Day73ClipPath()
   };
 
   List _listTitle = [
@@ -250,7 +252,8 @@ class _MainPageState extends State<MainPage> {
     "ListWheelScrollView",
     "ShaderMask",
     "NotificationListener",
-    "Builder"
+    "Builder",
+    "ClipPath"
   ];
 
   List fliter = List<String>();
