@@ -452,6 +452,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=O-rhXZLtpv0"><img src = 'https://img.youtube.com/vi/O-rhXZLtpv0/0.jpg' alt="ProgressIndicator" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 075 - [Divider - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day075_divider.dart)
+
+<a href="https://www.youtube.com/watch?v=_liUC641Nmk"><img src = 'https://img.youtube.com/vi/_liUC641Nmk/0.jpg' alt="Divider" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTMyNDQyMjczNSw0OTk5MTc0MTBdfQ==
 -->
