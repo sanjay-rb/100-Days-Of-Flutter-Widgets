@@ -73,6 +73,7 @@ import 'package:hundreddaysofflutterwidget/day072_builder.dart';
 import 'package:hundreddaysofflutterwidget/day073_clip_path.dart';
 import 'package:hundreddaysofflutterwidget/day074_progress_indicator.dart';
 import 'package:hundreddaysofflutterwidget/day075_divider.dart';
+import 'package:hundreddaysofflutterwidget/day076_ignore_pointer.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -181,7 +182,8 @@ class _MainPageState extends State<MainPage> {
     "Builder": Day72Builder(),
     "ClipPath": Day73ClipPath(),
     "ProgressIndicator": Day74ProgressIndicator(),
-    "Divider": Day75Divider()
+    "Divider": Day75Divider(),
+    "IgnorePointer": Day76IgnorePointer()
   };
 
   List _listTitle = [
@@ -259,7 +261,8 @@ class _MainPageState extends State<MainPage> {
     "Builder",
     "ClipPath",
     "ProgressIndicator",
-    "Divider"
+    "Divider",
+    "IgnorePointer"
   ];
 
   List fliter = List<String>();
