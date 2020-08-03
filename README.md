@@ -464,6 +464,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=qV9pqHWxYgI"><img src = 'https://img.youtube.com/vi/qV9pqHWxYgI/0.jpg' alt="IgnorePointer" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 077 - [CupertinoActivityIndicator - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day076_ignore_pointer.dart)
+
+<a href="https://www.youtube.com/watch?v=AENVH-ZqKDQ"><img src = 'https://img.youtube.com/vi/AENVH-ZqKDQ/0.jpg' alt="CupertinoActivityIndicator" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4MTY3MDg3ODYsMTExNzgyNDczMyw0OT
 k5MTc0MTBdfQ==
