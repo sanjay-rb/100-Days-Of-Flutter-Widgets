@@ -75,6 +75,7 @@ import 'package:hundreddaysofflutterwidget/day074_progress_indicator.dart';
 import 'package:hundreddaysofflutterwidget/day075_divider.dart';
 import 'package:hundreddaysofflutterwidget/day076_ignore_pointer.dart';
 import 'package:hundreddaysofflutterwidget/day077_cupertino_activity_indicator.dart';
+import 'package:hundreddaysofflutterwidget/day078_clip_oval.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -185,7 +186,8 @@ class _MainPageState extends State<MainPage> {
     "ProgressIndicator": Day74ProgressIndicator(),
     "Divider": Day75Divider(),
     "IgnorePointer": Day76IgnorePointer(),
-    "CupertinoActivityIndicator": Day77CupertinoActivityIndicator()
+    "CupertinoActivityIndicator": Day77CupertinoActivityIndicator(),
+    "ClipOval": Day78ClipOval()
   };
 
   List _listTitle = [
@@ -265,7 +267,8 @@ class _MainPageState extends State<MainPage> {
     "ProgressIndicator",
     "Divider",
     "IgnorePointer",
-    "CupertinoActivityIndicator"
+    "CupertinoActivityIndicator",
+    "ClipOval"
   ];
 
   List fliter = List<String>();
