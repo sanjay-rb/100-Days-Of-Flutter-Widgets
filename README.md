@@ -476,6 +476,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=vzWWDO6whIM"><img src = 'https://img.youtube.com/vi/vzWWDO6whIM/0.jpg' alt="ClipOval" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 079 - [AnimatedWidget - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day079_animated_widgets.dart)
+
+<a href="https://www.youtube.com/watch?v=LKKgYpC-EPQ"><img src = 'https://img.youtube.com/vi/LKKgYpC-EPQ/0.jpg' alt="AnimatedWidget" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzAxMDM1OTQ2LDI1Mzc0MjMwMCwxMTE3OD
 I0NzMzLDQ5OTkxNzQxMF19
