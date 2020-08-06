@@ -77,6 +77,7 @@ import 'package:hundreddaysofflutterwidget/day076_ignore_pointer.dart';
 import 'package:hundreddaysofflutterwidget/day077_cupertino_activity_indicator.dart';
 import 'package:hundreddaysofflutterwidget/day078_clip_oval.dart';
 import 'package:hundreddaysofflutterwidget/day079_animated_widgets.dart';
+import 'package:hundreddaysofflutterwidget/day080_padding.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -189,7 +190,8 @@ class _MainPageState extends State<MainPage> {
     "IgnorePointer": Day76IgnorePointer(),
     "CupertinoActivityIndicator": Day77CupertinoActivityIndicator(),
     "ClipOval": Day78ClipOval(),
-    "AnimatedWidget": Day79AnimatedWidget()
+    "AnimatedWidget": Day79AnimatedWidget(),
+    'Padding': Day80Padding()
   };
 
   List _listTitle = [
@@ -271,7 +273,8 @@ class _MainPageState extends State<MainPage> {
     "IgnorePointer",
     "CupertinoActivityIndicator",
     "ClipOval",
-    "AnimatedWidget"
+    "AnimatedWidget",
+    "Padding"
   ];
 
   List fliter = List<String>();

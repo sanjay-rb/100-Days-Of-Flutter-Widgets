@@ -482,6 +482,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=LKKgYpC-EPQ"><img src = 'https://img.youtube.com/vi/LKKgYpC-EPQ/0.jpg' alt="AnimatedWidget" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 080 - [Padding - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day080_padding.dart)
+
+<a href="https://www.youtube.com/watch?v=oD5RtLhhubg"><img src = 'https://img.youtube.com/vi/oD5RtLhhubg/0.jpg' alt="AnimatedWidget" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTkxMzU1MjUwMiw3MDEwMzU5NDYsMjUzNz
 QyMzAwLDExMTc4MjQ3MzMsNDk5OTE3NDEwXX0=
