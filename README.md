@@ -494,6 +494,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=RkSqPAn9szs"><img src = 'https://img.youtube.com/vi/RkSqPAn9szs/0.jpg' alt="CheckboxListTile" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 082 - [AboutDialog - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day082_about_dialog.dart)
+
+<a href="https://www.youtube.com/watch?v=YFCSODyFxbE"><img src = 'https://img.youtube.com/vi/YFCSODyFxbE/0.jpg' alt="AboutDialog" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTYyNDY1OTkzMl19
 -->
