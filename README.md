@@ -500,6 +500,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://www.youtube.com/watch?v=YFCSODyFxbE"><img src = 'https://img.youtube.com/vi/YFCSODyFxbE/0.jpg' alt="AboutDialog" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 083 - [InteractiveViewer - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day083_interactive_viewer.dart)
+
+<a href="https://master-api.flutter.dev/flutter/widgets/InteractiveViewer-class.html"><img src = 'https://www.techaheadcorp.com/wp-content/uploads/2020/08/flutter-1-20.png' alt="InteractiveViewer" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwNzI0NjgwNDFdfQ==
 -->

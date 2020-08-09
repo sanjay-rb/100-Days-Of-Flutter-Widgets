@@ -80,6 +80,7 @@ import 'package:hundreddaysofflutterwidget/day079_animated_widgets.dart';
 import 'package:hundreddaysofflutterwidget/day080_padding.dart';
 import 'package:hundreddaysofflutterwidget/day081_checkbox_list_tile.dart';
 import 'package:hundreddaysofflutterwidget/day082_about_dialog.dart';
+import 'package:hundreddaysofflutterwidget/day083_interactive_viewer.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -195,7 +196,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedWidget": Day79AnimatedWidget(),
     'Padding': Day80Padding(),
     "CheckboxListTile": Day81CheckboxListTile(),
-    "AboutDialog": Day82AboutDialog()
+    "AboutDialog": Day82AboutDialog(),
+    "InteractiveViewer": Day83InteractiveViewer()
   };
 
   List _listTitle = [
@@ -280,7 +282,8 @@ class _MainPageState extends State<MainPage> {
     "AnimatedWidget",
     "Padding",
     "CheckboxListTile",
-    "AboutDialog"
+    "AboutDialog",
+    'InteractiveViewer'
   ];
 
   List fliter = List<String>();
