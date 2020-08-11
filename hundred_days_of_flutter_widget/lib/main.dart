@@ -82,6 +82,7 @@ import 'package:hundreddaysofflutterwidget/day081_checkbox_list_tile.dart';
 import 'package:hundreddaysofflutterwidget/day082_about_dialog.dart';
 import 'package:hundreddaysofflutterwidget/day083_interactive_viewer.dart';
 import 'package:hundreddaysofflutterwidget/day084_date_picker.dart';
+import 'package:hundreddaysofflutterwidget/day085_time_picker.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -199,7 +200,8 @@ class _MainPageState extends State<MainPage> {
     "CheckboxListTile": Day81CheckboxListTile(),
     "AboutDialog": Day82AboutDialog(),
     "InteractiveViewer": Day83InteractiveViewer(),
-    "DatePicker": Day84DatePicker()
+    "DatePicker": Day84DatePicker(),
+    "TimePicker": Day85TimePicker()
   };
 
   List _listTitle = [
@@ -286,7 +288,8 @@ class _MainPageState extends State<MainPage> {
     "CheckboxListTile",
     "AboutDialog",
     "InteractiveViewer",
-    "DatePicker"
+    "DatePicker",
+    "TimePicker"
   ];
 
   List fliter = List<String>();
