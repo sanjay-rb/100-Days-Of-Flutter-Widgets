@@ -1,5 +1,5 @@
 # 100-Days-Of-Flutter-Widgets
-This is where you can get all knowledge about the flutter.
+This is the place where you can get all knowledge about the flutter in 100 Days.
 
 ## Like My Work Say Thanks! <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 
