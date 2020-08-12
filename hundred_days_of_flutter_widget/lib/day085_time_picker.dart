@@ -20,9 +20,13 @@ class _Day85TimePickerState extends State<Day85TimePicker> {
           child: ListTile(
             onTap: () async {
               TimeOfDay seletedTime = await showTimePicker(
-                  context: context, initialTime: TimeOfDay.now());
+                context: context, // ! need to pass the context....
+                initialTime: currentTime, // ! initial selected time...
+              );
               setState(() {
-                currentTime = seletedTime;
+                // ! seletedTime is null then set back to currentTime....
+                // ! with dart null safety operator....
+                currentTime = seletedTime ?? currentTime;
               });
             },
             title: RichText(
@@ -33,8 +37,9 @@ class _Day85TimePickerState extends State<Day85TimePicker> {
                       style: TextStyle(
                           fontWeight: FontWeight.bold, color: Colors.black)),
                   TextSpan(
-                      text:
-                          '${currentTime.hour % 12 != 0 ? currentTime.hour % 12 : 12}hr:${currentTime.minute}mins ${currentTime.period == DayPeriod.am ? 'am' : 'pm'}',
+                      text: '${currentTime.hour % 12 != 0 ? currentTime.hour % 12 : 12}hr' +
+                          ':${currentTime.minute}mins' +
+                          ' ${currentTime.period == DayPeriod.am ? 'am' : 'pm'}',
                       style: TextStyle(
                           fontWeight: FontWeight.normal, color: Colors.black)),
                 ],
