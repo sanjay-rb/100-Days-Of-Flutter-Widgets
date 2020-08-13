@@ -524,6 +524,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://api.flutter.dev/flutter/material/showDateRangePicker.html"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="DateRangePicker" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 087 - [VerticalDrag - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day087_vertical_drag.dart)
+
+<a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragUpdate.html"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="VerticalDrag" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTYwNjE4NDQyLDcwODI3OTY0MSwtMTUwNj
 ExMDY0NiwxMjIxMzQ2Nzk0LDE2Njg5NDU3MzMsLTk0NDAxMTg4
