@@ -41,7 +41,6 @@ class _Day88HorizontalDragState extends State<Day88HorizontalDrag> {
         onHorizontalDragUpdate: (details) {
           bool isRight = deviceWidth * 0.8 < _offset.dx;
           bool isLeft = -deviceWidth * 0.8 > _offset.dx;
-          print(isLeft);
           if (details.delta.dx < 0) {
             // ! on draging left....
             if (!isLeft) {
