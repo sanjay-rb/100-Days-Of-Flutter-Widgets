@@ -1,53 +1,79 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Day87VerticalDrag extends StatefulWidget {
-  Day87VerticalDrag({Key key}) : super(key: key);
+class Day89PanDrag extends StatefulWidget {
+  Day89PanDrag({Key key}) : super(key: key);
 
   @override
-  _Day87VerticalDragState createState() => _Day87VerticalDragState();
+  _Day89PanDragState createState() => _Day89PanDragState();
 }
 
-class _Day87VerticalDragState extends State<Day87VerticalDrag> {
+class _Day89PanDragState extends State<Day89PanDrag> {
   Offset _offset;
-  String onVerticalDragText;
-  String isDragUpOrDown;
+
+  String onPanDragText;
 
   @override
   void initState() {
     super.initState();
     _offset = Offset(0, 0);
-    onVerticalDragText = 'Start dragging up and down';
-    isDragUpOrDown = 'Drag Status';
+    onPanDragText = 'Start dragging up and down';
   }
 
   @override
   Widget build(BuildContext context) {
     double deviceWidth = MediaQuery.of(context).size.width;
     double deviceHeight = MediaQuery.of(context).size.height;
-
     return Scaffold(
       body: GestureDetector(
-        onVerticalDragStart: (details) {
+        onPanStart: (details) {
           setState(() {
-            onVerticalDragText = 'onVerticalDragStart';
+            onPanDragText = 'onPanStart';
           });
         },
-        onVerticalDragEnd: (details) {
+        onPanEnd: (details) {
           setState(() {
-            onVerticalDragText = 'onVerticalDragEnd';
-            isDragUpOrDown = 'Dragging Stopped';
+            onPanDragText = 'onPanEnd';
           });
         },
-        onVerticalDragUpdate: (details) {
-          bool isUp = -deviceHeight * 0.8 > _offset.dy;
-          bool isDown = deviceHeight * 0.8 < _offset.dy;
+        onPanUpdate: (details) {
+          // !here we get drag details for both vertical and horzontal axis as dx & dxy....
+          // ! uncomment this for free drag....
+          // setState(() {
+          //     _offset = Offset(
+          //       _offset.dx +
+          //           details.delta.dx, // ! added the delta dx to offset dx....
+          //       _offset.dy +
+          //           details.delta.dy, // ! added the delta dy to offset dy....
+          //     );
+          //   });
+          // ! here we constrain the drag area....
+          bool isUp = -deviceHeight * 0.5 > _offset.dy;
+          bool isDown = deviceHeight * 0.5 < _offset.dy;
+          bool isRight = deviceWidth * 0.5 < _offset.dx;
+          bool isLeft = -deviceWidth * 0.5 > _offset.dx;
+          if (details.delta.dx < 0) {
+            // ! on draging left....
+            if (!isLeft) {
+              // ! check is not left already.....
+              setState(() {
+                _offset = Offset(_offset.dx + details.delta.dx, _offset.dy);
+              });
+            }
+          } else {
+            // ! on draging right....
+            if (!isRight) {
+              // ! check is not right already.....
+              setState(() {
+                _offset = Offset(_offset.dx + details.delta.dx, _offset.dy);
+              });
+            }
+          }
           if (details.delta.dy < 0.0) {
             // ! on draging up....
             if (!isUp) {
               // ! check is not Up already.....
               setState(() {
-                isDragUpOrDown = 'Dragging Up';
                 _offset = Offset(_offset.dx, _offset.dy + details.delta.dy);
               });
             }
@@ -56,7 +82,6 @@ class _Day87VerticalDragState extends State<Day87VerticalDrag> {
             if (!isDown) {
               // ! check is not Down already.....
               setState(() {
-                isDragUpOrDown = 'Dragging Down';
                 _offset = Offset(_offset.dx, _offset.dy + details.delta.dy);
               });
             }
@@ -81,7 +106,7 @@ class _Day87VerticalDragState extends State<Day87VerticalDrag> {
             ),
             Center(
                 child: Text(
-              '$onVerticalDragText\n$isDragUpOrDown',
+              '$onPanDragText',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20),
             ))
@@ -89,7 +114,7 @@ class _Day87VerticalDragState extends State<Day87VerticalDrag> {
         ),
       ),
       appBar: AppBar(
-        title: Text('VerticalDrag'),
+        title: Text('PanDrag'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.help),
@@ -97,7 +122,7 @@ class _Day87VerticalDragState extends State<Day87VerticalDrag> {
               const url =
                   'https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/' +
                       'blob/master/hundred_days_of_flutter_widget/' +
-                      'lib/day087_vertical_drag.dart';
+                      'lib/day089_pan_drag.dart';
               if (await canLaunch(url)) {
                 await launch(url);
               } else {

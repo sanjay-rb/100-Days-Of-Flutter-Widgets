@@ -527,18 +527,18 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 
 ## Day 087 - [VerticalDrag - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day087_vertical_drag.dart)
 
-<a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onVerticalDragUpdate.html"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="VerticalDrag" width=150></a>
+<a href="https://flutter.dev/docs/development/ui/advanced/gestures"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="VerticalDrag" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 
 ## Day 088 - [HorizontalDrag - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day088_horizontal_drag.dart)
 
-<a href="https://api.flutter.dev/flutter/widgets/GestureDetector/onHorizontalDragUpdate.html"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="HorizontalDrag" width=150></a>
+<a href="https://flutter.dev/docs/development/ui/advanced/gestures"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="HorizontalDrag" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMDY5NDYwLC0xNzMzMTI5MjgwLC02MD
-YxODQ0Miw3MDgyNzk2NDEsLTE1MDYxMTA2NDYsMTIyMTM0Njc5
-NCwxNjY4OTQ1NzMzLC05NDQwMTE4ODYsLTIwMDI5NDUzOTldfQ
-==
--->
+
+## Day 089 - [PanDrag - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day089_pan_drag.dart)
+
+<a href="https://flutter.dev/docs/development/ui/advanced/gestures"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="PanDrag" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
