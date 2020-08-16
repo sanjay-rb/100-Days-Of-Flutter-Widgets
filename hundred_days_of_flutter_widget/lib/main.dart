@@ -87,6 +87,7 @@ import 'package:hundreddaysofflutterwidget/day086_date_range_picker.dart';
 import 'package:hundreddaysofflutterwidget/day087_vertical_drag.dart';
 import 'package:hundreddaysofflutterwidget/day088_horizontal_drag.dart';
 import 'package:hundreddaysofflutterwidget/day089_pan_drag.dart';
+import 'package:hundreddaysofflutterwidget/day090_animation_flutter.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -209,7 +210,8 @@ class _MainPageState extends State<MainPage> {
     "DateRangePicker": Day86DateRangePicker(),
     "VerticalDrag": Day87VerticalDrag(),
     "HorizontalDrag": Day88HorizontalDrag(),
-    "PanDrag": Day89PanDrag()
+    "PanDrag": Day89PanDrag(),
+    "Select Animation": Day90AnimationFlutter()
   };
 
   List _listTitle = [
@@ -301,7 +303,8 @@ class _MainPageState extends State<MainPage> {
     "DateRangePicker",
     "VerticalDrag",
     "HorizontalDrag",
-    "PanDrag"
+    "PanDrag",
+    "Select Animation"
   ];
 
   List fliter = List<String>();

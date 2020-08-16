@@ -542,6 +542,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://flutter.dev/docs/development/ui/advanced/gestures"><img src = 'https://img.youtube.com/vi/4AoFA19gbLo/0.jpg' alt="PanDrag" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 090 - [AnimationSelection - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day090_animation_flutter.dart)
+
+<a href="https://youtu.be/GXIJJkq_H8g"><img src = 'https://img.youtube.com/vi/GXIJJkq_H8g/0.jpg' alt="AnimationSelection" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTM1MTQyNzA0N119
 -->
