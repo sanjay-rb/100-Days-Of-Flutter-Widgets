@@ -89,6 +89,7 @@ import 'package:hundreddaysofflutterwidget/day088_horizontal_drag.dart';
 import 'package:hundreddaysofflutterwidget/day089_pan_drag.dart';
 import 'package:hundreddaysofflutterwidget/day090_animation_flutter.dart';
 import 'package:hundreddaysofflutterwidget/day091_implicit_animations.dart';
+import 'package:hundreddaysofflutterwidget/day092_custom_implicit_animations.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -213,7 +214,8 @@ class _MainPageState extends State<MainPage> {
     "HorizontalDrag": Day88HorizontalDrag(),
     "PanDrag": Day89PanDrag(),
     "Select Animation": Day90AnimationFlutter(),
-    "ImplicitAnimations": Day91ImplicitAnimations()
+    "ImplicitAnimations": Day91ImplicitAnimations(),
+    "Custom Implicit Animations": Day92CustomImplicitAnimations(),
   };
 
   List _listTitle = [
@@ -307,7 +309,8 @@ class _MainPageState extends State<MainPage> {
     "HorizontalDrag",
     "PanDrag",
     "Select Animation",
-    "ImplicitAnimations"
+    "ImplicitAnimations",
+    "Custom Implicit Animations"
   ];
 
   List fliter = List<String>();
