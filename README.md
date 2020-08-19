@@ -560,6 +560,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://youtu.be/6KiPEqzJIKQ"><img src = 'https://img.youtube.com/vi/6KiPEqzJIKQ/0.jpg' alt="Custom Implicit Animations" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 093 - [Built-in Explicit Animations - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day093_built_in_explicit_animations.dart)
+
+<a href="https://youtu.be/CunyH6unILQ"><img src = 'https://img.youtube.com/vi/CunyH6unILQ/0.jpg' alt="Built-in Explicit Animations" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzQwMjc0ODg1LDE1OTk3MDM3MzgsLTM1MT
 QyNzA0N119

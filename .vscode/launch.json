@@ -29,9 +29,6 @@
             "type": "dart",
             "flutterMode": "release",
             "internalConsoleOptions": "openOnSessionStart",
-            "args": [
-                "-v"
-            ]
         }
     ]
 }

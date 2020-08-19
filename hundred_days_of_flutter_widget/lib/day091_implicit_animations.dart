@@ -78,26 +78,26 @@ class Day91ImplicitAnimations extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
+      body: ListView.separated(
         itemCount: implicitAnimationsList.length,
-        itemBuilder: (context, index) => Card(
-          margin: EdgeInsets.all(10),
-          elevation: 10,
-          child: Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: ListTile(
-              trailing: Icon(implicitAnimationsList[index]['icon']),
-              title: Text(implicitAnimationsList[index]['title']),
-              subtitle: Text(implicitAnimationsList[index]['content']),
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => implicitAnimationsList[index]['page'],
-                ),
+        itemBuilder: (context, index) => Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: ListTile(
+            trailing: Icon(implicitAnimationsList[index]['icon']),
+            title: Text(implicitAnimationsList[index]['title']),
+            subtitle: Text(implicitAnimationsList[index]['content']),
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => implicitAnimationsList[index]['page'],
               ),
             ),
           ),
         ),
+        separatorBuilder: (context, index) => Divider(
+          thickness: 2,
+        ),
+
       ),
       appBar: AppBar(
         title: Text('Implicit Animations'),
