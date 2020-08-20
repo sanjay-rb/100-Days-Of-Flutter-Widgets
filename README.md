@@ -551,7 +551,7 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 
 ## Day 091 - [ImplicitAnimations - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day091_implicit_animations.dart)
 
-<a href="https://youtu.be/IVTjpW3W33s"><img src = 'https://img.youtube.com/vi/IVTjpW3W33s/0.jpg' alt="AnimationSelection" width=150></a>
+<a href="https://youtu.be/IVTjpW3W33s"><img src = 'https://img.youtube.com/vi/IVTjpW3W33s/0.jpg' alt="ImplicitAnimations" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 
@@ -564,6 +564,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 ## Day 093 - [Built-in Explicit Animations - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day093_built_in_explicit_animations.dart)
 
 <a href="https://youtu.be/CunyH6unILQ"><img src = 'https://img.youtube.com/vi/CunyH6unILQ/0.jpg' alt="Built-in Explicit Animations" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 094 - [Custom Explicit Animations - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day094_custom_explicit_animations.dart)
+
+<a href="https://youtu.be/fneC7t4R_B0"><img src = 'https://img.youtube.com/vi/fneC7t4R_B0/0.jpg' alt="Custom Explicit Animations" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
