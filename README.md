@@ -572,6 +572,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://youtu.be/fneC7t4R_B0"><img src = 'https://img.youtube.com/vi/fneC7t4R_B0/0.jpg' alt="Custom Explicit Animations" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 095 - [Keys - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day095_keys.dart)
+
+<a href="https://youtu.be/kn0EOS-ZiIc"><img src = 'https://img.youtube.com/vi/kn0EOS-ZiIc/0.jpg' alt="Keys" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTEwMjE4NDQ2NjEsLTE5MzcwNzk3OTksMT
 QzNDI3OTAsMzQwMjc0ODg1LDE1OTk3MDM3MzgsLTM1MTQyNzA0
