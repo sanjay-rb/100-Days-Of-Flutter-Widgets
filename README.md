@@ -578,6 +578,12 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://youtu.be/kn0EOS-ZiIc"><img src = 'https://img.youtube.com/vi/kn0EOS-ZiIc/0.jpg' alt="Keys" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+
+## Day 095 - [Isolate by Compute - Click Here to Code](https://github.com/sanjaysanju618/100-Days-Of-Flutter-Widgets/blob/master/hundred_days_of_flutter_widget/lib/day096_isolates.dart)
+
+<a href="https://youtu.be/zHoFG2x5ZsQ"><img src = 'https://img.youtube.com/vi/zHoFG2x5ZsQ/0.jpg' alt="Keys" width=150></a>
+
+<a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTI0OTI1MTg0MSwtMTkzNzA3OTc5OSwxND
 M0Mjc5MCwzNDAyNzQ4ODUsMTU5OTcwMzczOCwtMzUxNDI3MDQ3

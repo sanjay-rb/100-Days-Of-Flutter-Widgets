@@ -93,6 +93,7 @@ import 'package:hundreddaysofflutterwidget/day092_custom_implicit_animations.dar
 import 'package:hundreddaysofflutterwidget/day093_built_in_explicit_animations.dart';
 import 'package:hundreddaysofflutterwidget/day094_custom_explicit_animations.dart';
 import 'package:hundreddaysofflutterwidget/day095_keys.dart';
+import 'package:hundreddaysofflutterwidget/day096_isolates.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -221,7 +222,8 @@ class _MainPageState extends State<MainPage> {
     "Custom Implicit Animations": Day92CustomImplicitAnimations(),
     "Built-in Explicit Animations": Day93BuiltInExplicitAnimations(),
     "Custom Explicit Animations": Day94CustomExplicitAnimations(),
-    "Keys": Day95Keys()
+    "Keys": Day95Keys(),
+    "Isolate by Compute": Day96Isolates()
   };
 
   List _listTitle = [
@@ -319,7 +321,8 @@ class _MainPageState extends State<MainPage> {
     "Custom Implicit Animations",
     "Built-in Explicit Animations",
     "Custom Explicit Animations",
-    'Keys'
+    "Keys",
+    "Isolate by Compute"
   ];
 
   List fliter = List<String>();
