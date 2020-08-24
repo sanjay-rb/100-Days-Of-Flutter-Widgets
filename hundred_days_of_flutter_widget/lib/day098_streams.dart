@@ -24,54 +24,55 @@ class _Day98StreamsState extends State<Day98Streams> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              StreamBuilder<int>(
-                stream: [
-                  getStreamByPeriodic(),
-                  getStreamByFuture(),
-                  getStreamByStreamController()
-                ][using.index],
-                initialData: 4,
-                builder: (context, snapshot) => AnimatedSwitcher(
-                  duration: const Duration(seconds: 1),
-                  transitionBuilder: (child, animation) => FadeTransition(
-                    opacity: animation,
-                    child: child,
-                  ),
-                  child: Container(
-                    key: ValueKey(snapshot.data ?? 4),
-                    width: 250,
-                    height: 250,
-                    color: [
-                      Colors.red,
-                      Colors.green,
-                      Colors.blue,
-                      Colors.orange,
-                      Colors.purple
-                    ][snapshot.data],
-                    child: Center(
-                      child: Text(
-                        snapshot.data.toString(),
-                        style: TextStyle(fontSize: 25, color: Colors.white),
+        child: Center(
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                StreamBuilder<int>(
+                  stream: [
+                    getStreamByPeriodic(),
+                    getStreamByFuture(),
+                    getStreamByStreamController()
+                  ][using.index],
+                  initialData: 4,
+                  builder: (context, snapshot) => AnimatedSwitcher(
+                    duration: const Duration(seconds: 1),
+                    transitionBuilder: (child, animation) => FadeTransition(
+                      opacity: animation,
+                      child: child,
+                    ),
+                    child: Container(
+                      key: ValueKey(snapshot.data ?? 4),
+                      width: 250,
+                      height: 250,
+                      color: [
+                        Colors.red,
+                        Colors.green,
+                        Colors.blue,
+                        Colors.orange,
+                        Colors.purple
+                      ][snapshot.data],
+                      child: Center(
+                        child: Text(
+                          snapshot.data.toString(),
+                          style: TextStyle(fontSize: 25, color: Colors.white),
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
-              [
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Text('''
+                [
+                  Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Text('''
 Stream<int> getStreamByPeriodic() =>
     Stream<int>.periodic(const Duration(seconds: 2), (count) => count % 5);
 '''),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Text('''
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Text('''
 Stream<int> getStreamByFuture() async* {
   int count = 0;
   while (true) {
@@ -80,10 +81,10 @@ Stream<int> getStreamByFuture() async* {
   }
 }
 '''),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Text('''
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Text('''
 Stream<int> getStreamByStreamController() {
   StreamController<int> controller;
   Timer timer;
@@ -120,37 +121,38 @@ Stream<int> getStreamByStreamController() {
   return controller.stream;
 }
 '''),
-                )
-              ][using.index],
-              Wrap(
-                children: [
-                  RaisedButton(
-                    onPressed: () {
-                      setState(() {
-                        using = Using.Transforming;
-                      });
-                    },
-                    child: Text('Stream using Transforming'),
-                  ),
-                  RaisedButton(
-                    onPressed: () {
-                      setState(() {
-                        using = Using.AsyncAsteriskFunction;
-                      });
-                    },
-                    child: Text('Stream using async*'),
-                  ),
-                  RaisedButton(
-                    onPressed: () {
-                      setState(() {
-                        using = Using.StreamController;
-                      });
-                    },
-                    child: Text('Stream using StreamController'),
                   )
-                ],
-              )
-            ],
+                ][using.index],
+                Wrap(
+                  children: [
+                    RaisedButton(
+                      onPressed: () {
+                        setState(() {
+                          using = Using.Transforming;
+                        });
+                      },
+                      child: Text('Stream using Transforming'),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        setState(() {
+                          using = Using.AsyncAsteriskFunction;
+                        });
+                      },
+                      child: Text('Stream using async*'),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        setState(() {
+                          using = Using.StreamController;
+                        });
+                      },
+                      child: Text('Stream using StreamController'),
+                    )
+                  ],
+                )
+              ],
+            ),
           ),
         ),
       ),
