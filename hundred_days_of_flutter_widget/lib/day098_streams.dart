@@ -1,5 +1,9 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+enum Using { Transforming, AsyncAsteriskFunction, StreamController }
 
 class Day98Streams extends StatefulWidget {
   Day98Streams({Key key}) : super(key: key);
@@ -9,10 +13,10 @@ class Day98Streams extends StatefulWidget {
 }
 
 class _Day98StreamsState extends State<Day98Streams> {
-  bool isUseingFuture;
+  Using using;
   @override
   void initState() {
-    isUseingFuture = false;
+    using = Using.Transforming;
     super.initState();
   }
 
@@ -20,42 +24,54 @@ class _Day98StreamsState extends State<Day98Streams> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            StreamBuilder<int>(
-              stream: getStreamByFuture(),
-              initialData: 4,
-              builder: (context, snapshot) => AnimatedSwitcher(
-                duration: const Duration(seconds: 1),
-                transitionBuilder: (child, animation) => FadeTransition(
-                  opacity: animation,
-                  child: child,
-                ),
-                child: Container(
-                  key: ValueKey(snapshot.data ?? 4),
-                  width: 250,
-                  height: 250,
-                  color: [
-                    Colors.red,
-                    Colors.green,
-                    Colors.blue,
-                    Colors.orange,
-                    Colors.purple
-                  ][snapshot.data],
-                  child: Center(
-                    child: Text(
-                      snapshot.data.toString(),
-                      style: TextStyle(fontSize: 25, color: Colors.white),
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              StreamBuilder<int>(
+                stream: [
+                  getStreamByPeriodic(),
+                  getStreamByFuture(),
+                  getStreamByStreamController()
+                ][using.index],
+                initialData: 4,
+                builder: (context, snapshot) => AnimatedSwitcher(
+                  duration: const Duration(seconds: 1),
+                  transitionBuilder: (child, animation) => FadeTransition(
+                    opacity: animation,
+                    child: child,
+                  ),
+                  child: Container(
+                    key: ValueKey(snapshot.data ?? 4),
+                    width: 250,
+                    height: 250,
+                    color: [
+                      Colors.red,
+                      Colors.green,
+                      Colors.blue,
+                      Colors.orange,
+                      Colors.purple
+                    ][snapshot.data],
+                    child: Center(
+                      child: Text(
+                        snapshot.data.toString(),
+                        style: TextStyle(fontSize: 25, color: Colors.white),
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
-            if (isUseingFuture) ...[
-              Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: Text('''
+              [
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Text('''
+Stream<int> getStreamByPeriodic() =>
+    Stream<int>.periodic(const Duration(seconds: 2), (count) => count % 5);
+'''),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Text('''
 Stream<int> getStreamByFuture() async* {
   int count = 0;
   while (true) {
@@ -64,27 +80,78 @@ Stream<int> getStreamByFuture() async* {
   }
 }
 '''),
-              )
-            ] else ...[
-              Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: Text('''
-Stream<int> getStreamByPeriodic() =>
-    Stream<int>.periodic(const Duration(seconds: 2), (count) => count % 5);
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Text('''
+Stream<int> getStreamByStreamController() {
+  StreamController<int> controller;
+  Timer timer;
+  int counter = 0;
+
+  void tick(_) {
+    counter++;
+    if (!controller.isClosed)
+      controller.add(counter); // Ask stream to send counter values as event.
+    if (counter == 4) {
+      timer.cancel();
+      controller.close(); // Ask stream to shut down and tell listeners.
+    }
+  }
+
+  void startTimer() {
+    timer = Timer.periodic(Duration(seconds: 2), tick);
+  }
+
+  void stopTimer() {
+    if (timer != null) {
+      timer.cancel();
+      timer = null;
+    }
+  }
+
+  controller = StreamController<int>(
+    onListen: startTimer,
+    onPause: stopTimer,
+    onResume: startTimer,
+    onCancel: stopTimer,
+  );
+
+  return controller.stream;
+}
 '''),
+                )
+              ][using.index],
+              Wrap(
+                children: [
+                  RaisedButton(
+                    onPressed: () {
+                      setState(() {
+                        using = Using.Transforming;
+                      });
+                    },
+                    child: Text('Stream using Transforming'),
+                  ),
+                  RaisedButton(
+                    onPressed: () {
+                      setState(() {
+                        using = Using.AsyncAsteriskFunction;
+                      });
+                    },
+                    child: Text('Stream using async*'),
+                  ),
+                  RaisedButton(
+                    onPressed: () {
+                      setState(() {
+                        using = Using.StreamController;
+                      });
+                    },
+                    child: Text('Stream using StreamController'),
+                  )
+                ],
               )
             ],
-            RaisedButton(
-              onPressed: () {
-                setState(() {
-                  isUseingFuture = !isUseingFuture;
-                });
-              },
-              child: Text(isUseingFuture
-                  ? 'Try using Stream<int>.periodic'
-                  : 'Try using yield with future'),
-            )
-          ],
+          ),
         ),
       ),
       appBar: AppBar(
@@ -119,4 +186,40 @@ Stream<int> getStreamByFuture() async* {
     await Future.delayed(const Duration(seconds: 2));
     yield count++ % 5;
   }
+}
+
+Stream<int> getStreamByStreamController() {
+  StreamController<int> controller;
+  Timer timer;
+  int counter = 0;
+
+  void tick(_) {
+    counter++;
+    if (!controller.isClosed)
+      controller.add(counter); // Ask stream to send counter values as event.
+    if (counter == 4) {
+      timer.cancel();
+      controller.close(); // Ask stream to shut down and tell listeners.
+    }
+  }
+
+  void startTimer() {
+    timer = Timer.periodic(Duration(seconds: 2), tick);
+  }
+
+  void stopTimer() {
+    if (timer != null) {
+      timer.cancel();
+      timer = null;
+    }
+  }
+
+  controller = StreamController<int>(
+    onListen: startTimer,
+    onPause: stopTimer,
+    onResume: startTimer,
+    onCancel: stopTimer,
+  );
+
+  return controller.stream;
 }
