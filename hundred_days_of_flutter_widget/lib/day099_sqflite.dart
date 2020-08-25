@@ -3,7 +3,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:async';
 
-// ! Model
+// ! Model....
 class Employee {
   int id;
   String name;
@@ -23,6 +23,7 @@ class Employee {
   }
 }
 
+// ! Controller....
 class DBHelper {
   static Database _database;
   static const String ID = 'id';
@@ -86,6 +87,7 @@ class DBHelper {
   }
 }
 
+// ! View....
 class Day99LocalDataBaseWithSQLite extends StatefulWidget {
   Day99LocalDataBaseWithSQLite({Key key}) : super(key: key);
 
@@ -111,6 +113,7 @@ class _Day99LocalDataBaseWithSQLiteState
     super.initState();
     dbHelper = DBHelper();
     isUpdating = false;
+    employees = dbHelper.getEmployee();
   }
 
   refreshList() {
