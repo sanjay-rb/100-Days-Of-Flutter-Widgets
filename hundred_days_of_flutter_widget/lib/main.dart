@@ -96,6 +96,7 @@ import 'package:hundreddaysofflutterwidget/day095_keys.dart';
 import 'package:hundreddaysofflutterwidget/day096_isolates.dart';
 import 'package:hundreddaysofflutterwidget/day097_futures.dart';
 import 'package:hundreddaysofflutterwidget/day098_streams.dart';
+import 'package:hundreddaysofflutterwidget/day099_sqflite.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -227,7 +228,8 @@ class _MainPageState extends State<MainPage> {
     "Keys": Day95Keys(),
     "Isolate by Compute": Day96Isolates(),
     "Futures": Day97Futures(),
-    "Streams": Day98Streams()
+    "Streams": Day98Streams(),
+    "Local SQLITE Database": Day99LocalDataBaseWithSQLite()
   };
 
   List _listTitle = [
@@ -328,7 +330,8 @@ class _MainPageState extends State<MainPage> {
     "Keys",
     "Isolate by Compute",
     "Futures",
-    "Streams"
+    "Streams",
+    "Local SQLITE Database"
   ];
 
   List fliter = List<String>();
