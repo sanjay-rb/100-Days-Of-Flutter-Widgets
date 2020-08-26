@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hundreddaysofflutterwidget/day001_safearea.dart';
 import 'package:hundreddaysofflutterwidget/day002_expanded.dart';
 import 'package:hundreddaysofflutterwidget/day003_wrap.dart';
@@ -97,7 +98,9 @@ import 'package:hundreddaysofflutterwidget/day096_isolates.dart';
 import 'package:hundreddaysofflutterwidget/day097_futures.dart';
 import 'package:hundreddaysofflutterwidget/day098_streams.dart';
 import 'package:hundreddaysofflutterwidget/day099_sqflite.dart';
+import 'package:hundreddaysofflutterwidget/day100_completed_web_app.dart';
 import 'package:hundreddaysofflutterwidget/inherited_widget/day037_inherited_widget.dart';
+import 'package:hundreddaysofflutterwidget/route/route.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
@@ -109,12 +112,17 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
       title: 'Hundred Days Of Flutter Widget',
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        accentColor: Colors.pinkAccent,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+      initialRoute: '/',
+      routes: Map.fromIterable(
+        routes,
+        key: (element) => element['route'],
+        value: (element) => (_) => element['ref'],
       ),
-      home: MainPage(),
+      theme: ThemeData(
+          primarySwatch: Colors.grey,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          textTheme: GoogleFonts.doHyeonTextTheme(Theme.of(context).textTheme)),
+      home: WebApp(),
     );
   }
 }
@@ -129,7 +137,7 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   TextEditingController _textController = TextEditingController();
 
-  Widget _appTitle = Text("100 Days of Widgtes");
+  Widget _appTitle = Text("100 Days of Widgets");
   Map nav = {
     "SafeArea": Day1SafeArea(),
     "Expanded": Day2Expanded(),
@@ -229,7 +237,8 @@ class _MainPageState extends State<MainPage> {
     "Isolate by Compute": Day96Isolates(),
     "Futures": Day97Futures(),
     "Streams": Day98Streams(),
-    "Local SQLITE Database": Day99LocalDataBaseWithSQLite()
+    "Local SQLITE Database": Day99LocalDataBaseWithSQLite(),
+    "Web App for 100 Days of code": WebApp()
   };
 
   List _listTitle = [
@@ -331,7 +340,8 @@ class _MainPageState extends State<MainPage> {
     "Isolate by Compute",
     "Futures",
     "Streams",
-    "Local SQLITE Database"
+    "Local SQLITE Database",
+    "Web App for 100 Days of code"
   ];
 
   List fliter = List<String>();

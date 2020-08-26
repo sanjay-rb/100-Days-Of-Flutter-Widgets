@@ -13,7 +13,7 @@ class _Day10TableState extends State<Day10Table> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tabel"),
+        title: Text("Table"),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.help),
