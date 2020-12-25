@@ -28,14 +28,11 @@ class _Day80PaddingState extends State<Day80Padding> {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
         items: [
+          BottomNavigationBarItem(icon: Icon(Icons.filter_1), label: "All"),
+          BottomNavigationBarItem(icon: Icon(Icons.filter_2), label: "Only"),
+          BottomNavigationBarItem(icon: Icon(Icons.filter_3), label: "LTRB"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.filter_1), title: Text("All")),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.filter_2), title: Text("Only")),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.filter_3), title: Text("LTRB")),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.filter_4), title: Text("Symmertic"))
+              icon: Icon(Icons.filter_4), label: "Symmertic"),
         ],
         currentIndex: index,
         onTap: (value) {

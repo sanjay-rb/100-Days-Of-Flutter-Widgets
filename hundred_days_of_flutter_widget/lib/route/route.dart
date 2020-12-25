@@ -468,6 +468,12 @@ List<Map<String, dynamic>> routes = [
     'file': 'day061_color_filtered.dart',
   },
   {
+    'route': '/day062_toggle_buttons',
+    'ref': new Day62ToggleButtons(),
+    'name': 'ToggleButtons',
+    'file': 'day062_toggle_buttons.dart',
+  },
+  {
     'route': '/day063_cupertino_action_sheet',
     'ref': new Day63CupertinoActionSheet(),
     'name': 'CupertinoActionSheet',
