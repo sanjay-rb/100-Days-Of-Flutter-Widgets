@@ -3,7 +3,7 @@
 - Android App : https://play.google.com/store/apps/details?id=com.sanjoke.hundred_days_of_flutter
 - Website : https://sanjaysanju618.github.io/100-Days-Of-Flutter-Widgets/
 
-## Like My Work [Say Thanks!][thanks]
+## Like My Work [Say Thanks!](https://saythanks.io/to/sanjaysanju618)
 
 I am plan to study all the widgets in flutter with there official [Youtube Channel](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
 
@@ -612,8 +612,6 @@ I am plan to study all the widgets in flutter with there official [Youtube Chann
 <a href="https://flutter.dev/web"><img src = 'https://th.bing.com/th/id/OIP.Fnunzf_4hFHhv_AHBugUEgHaEK?pid=Api&rs=1' alt="Web App for 100 Days of code" width=150></a>
 
 <a href="https://saythanks.io/to/sanjaysanju618"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
-
-[thanks]: https://saythanks.io/to/sanjaysanju618
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbODExMzI3NTkzLC01MzM0NzIzNzAsMTgwNT
 k4ODI5MCwtMjAwNTUyMjc3NywtMjQ5MjUxODQxLC0xOTM3MDc5
