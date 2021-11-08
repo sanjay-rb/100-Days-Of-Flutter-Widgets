@@ -3,7 +3,7 @@
 - Android App : https://play.google.com/store/apps/details?id=com.sanjoke.hundred_days_of_flutter
 - Website : https://sanjaysanju618.github.io/100-Days-Of-Flutter-Widgets/
 
-## Like My Work Say Thanks! <a href="https://saythanks.io/to/sanjaybabu618%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg"></a>
+## Like My Work [Say Thanks!](https://saythanks.io/to/sanjaysanju618)
 
 I am plan to study all the widgets in flutter with there official [Youtube Channel](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
 
