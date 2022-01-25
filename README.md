@@ -1,7 +1,7 @@
 # 100-Days-Of-Flutter-Widgets
 - This is the place where you can get all knowledge about the flutter in 100 Days.
 - Android App : https://play.google.com/store/apps/details?id=com.sanjoke.hundred_days_of_flutter
-- Website : https://sanjaysanju618.github.io/100-Days-Of-Flutter-Widgets/
+- Website : https://sanjay-rb.github.io/100-Days-Of-Flutter-Widgets/
 
 ## Like My Work [Say Thanks!](https://saythanks.io/to/sanjaysanju618)
 
